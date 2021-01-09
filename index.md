@@ -1,7 +1,21 @@
-## Welcome to Yan Jia's Homepage
+# Welcome to Yan Jia's Homepage
 
-I'm a Postdoctoral Teaching Fellow in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including but not limited to IoT (currently main direction), Web/Browser, mobile and OS.
+I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including but not limited to IoT (currently main direction), Web/Browser, mobile and OS.
 
+## Education
+
++ 2020.12 - ,  Lecturer Postdoctoral Fellowship, Nankai University
++ 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Yuqing Zhang
++ 2018.11 - 2020.7, Joint Ph.D. Student, Indiana University Bloomington, mentored by Prof.XiaoFeng Wang and Luyi Xing
++ 2015 - 2016, Master Student in Crypto, Xidian University
++ 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
+
+
+## Publications 
+
+## IMPACTSOF MY RESEARCH
+
+## INVITED TALKS
 
 ### Markdown
 
