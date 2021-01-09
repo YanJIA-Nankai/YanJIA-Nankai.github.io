@@ -11,7 +11,7 @@ I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
-+ Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, Xiaofeng Wang, Shangru Zhao and Yuqing Zhang.
++ Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
 
