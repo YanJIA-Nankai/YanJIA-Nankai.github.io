@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Welcome to Yan Jia's Homepage
 
-You can use the [editor on GitHub](https://github.com/YanJIA-Nankai/YanJIA-Nankai.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I'm a Postdoctoral Teaching Fellow in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including but not limited to IoT (currently main direction), Web/Browser, mobile and OS.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
