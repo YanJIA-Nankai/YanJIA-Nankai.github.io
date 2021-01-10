@@ -5,7 +5,8 @@ I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai
 ## Education
 
 + 2020.12 - ,  Lecturer Postdoctoral Fellowship, Nankai University
-+ 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Prof.Yuqing Zhang
++ 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Prof.Yuqing Zhang  
+(RA in the National Computer Network Intrusion Protection Center, University of Chinese Academy of Sciences)
 + 2018.11 - 2020.7, Joint Ph.D. Student, Indiana University Bloomington, mentored by Prof.XiaoFeng Wang and Prof.Luyi Xing
 + 2015 - 2016, Master Student in Crypto, Xidian University
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
@@ -58,6 +59,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 ## Impacts of My Research
 
 ### 2019
++ The vulnerabilities in delegation process 
 
 + The design issues in authorization model of MQTT raise the concern of OASIS MQTT Technical Committee and are treated as major priority. [OASIS Open Issue MQTT-536](https://issues.oasis-open.org/projects/MQTT/issues/MQTT-536?filter=allopenissues)
 
