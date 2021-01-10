@@ -1,6 +1,6 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network and other systems.
+I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network and other systems. Our work helped many vendors (e.g., AWS, Microsoft, Google, IBM, Alibaba, Baidu, Apple, Samsung, etc.) improve their system security.
 
 ## Education
 
@@ -16,7 +16,7 @@ I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
 
-+ Yuan Bin*, Jia Yan*, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
++ Yuan Bin, Jia Yan, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
 **Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation**. 
 29th USENIX Security Symposium (USENIX Security). 2020. (*This work was done when the first two authors working closely.)
 
@@ -25,11 +25,11 @@ Black Hat Europe. 2019.
 
 + Zhou Wei, Jia Yan, Yao Yao, Zhu Lipeng, Guan le, Mao Yuhang, Liu Peng and Zhang Yuqing. 
 **Discovering and understanding the security hazards in the interactions between IoT devices, mobile apps, and clouds on smart home platforms**.
-28th USENIX Security Symposium (USENIX Security). 2019
+28th USENIX Security Symposium (USENIX Security). 2019. 
 
 + Yao Yao, Zhou Wei, Jia Yan, Zhu Lipeng, Liu Peng and Zhang Yuqing. 
 **Identifying Privilege Separation Vulnerabilities in IoT Firmware with Symbolic Execution**. 
-European Symposium on Research in Computer Security (ESORICS). 2019
+European Symposium on Research in Computer Security (ESORICS). 2019.
 
 + 王基策, 李意莲, 贾岩, 周威, 王宇成, 王鹤, 张玉清. 
 **智能家居安全综述**. 
