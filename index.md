@@ -16,12 +16,12 @@ I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
 
-+ Yuan Bin, Jia Yan, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
++ Yuan Bin*, Jia Yan*, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
 **Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation**. 
-29th USENIX Security Symposium (USENIX Security). 2020.
+29th USENIX Security Symposium (USENIX Security). 2020. (*This work was done when the first two authors working closely.)
 
-+ **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. (50-min Briefings)
-Black Hat Europe 2019.
++ **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
+Black Hat Europe. 2019.
 
 + Zhou Wei, Jia Yan, Yao Yao, Zhu Lipeng, Guan le, Mao Yuhang, Liu Peng and Zhang Yuqing. 
 **Discovering and understanding the security hazards in the interactions between IoT devices, mobile apps, and clouds on smart home platforms**.
@@ -58,13 +58,16 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 ## Impacts of My Research
 
+### 2020
++ Vulnerabilities we discovered are assigned [CNVD-2020-68248](https://www.cnvd.org.cn/flaw/show/2621899), CNVD-2020-73400.
+
 ### 2019
-+ The vulnerabilities in delegation process 
++ The vulnerabilities in IoT cloud delegation process we discovered are acknowledged by Samsung SmartThings ($2000 bounty), Philips Hue.     
 
 + The design issues in authorization model of MQTT raise the concern of OASIS MQTT Technical Committee and are treated as major priority. [OASIS Open Issue MQTT-536](https://issues.oasis-open.org/projects/MQTT/issues/MQTT-536?filter=allopenissues)
 
 ### 2018
-+ The vulnerabilities and design flaws I found in IoT platforms and MQTT influence many popular vendors including Amazon Web Service, Microsoft(awarded \$2500 plus \$4000), IBM, iRobot, Alibaba, Baidu, Tuya Smart, Suning (Critical), Eclipse Mosquitto, etc, which may cause illegal control, large-scale DoS, privacy leaks and device impersonation  .
++ The vulnerabilities and design flaws I found in IoT platforms and MQTT influence many popular vendors including Amazon Web Service, Microsoft(awarded $2500 plus $4000), IBM, iRobot, Alibaba, Baidu, Tuya Smart, Suning (Critical), Eclipse Mosquitto, etc, which may cause illegal control, large-scale DoS, privacy leaks and device impersonation  .
 (Reference:
     [MSRC Online Acknowledgement(October 2019)](https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services),
     [MSRC Online Acknowledgement(July 2018)](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services-archive?rtc=1),
@@ -82,7 +85,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 
 ### 2017
-+ HSTS Bypass via fooding of the HSTS policy file in Chromium (Severity-Medium). [Issue 699461](https://bugs.chromium.org/p/chromium/issues/detail?id=699461) (All platforms affected but has not been solved yet)
++ HSTS Bypass via fooding of the HSTS policy file in Chromium (Severity-Medium). [Issue 699461](https://bugs.chromium.org/p/chromium/issues/detail?id=699461)
 
 ## Research Funds
 
