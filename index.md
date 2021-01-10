@@ -55,14 +55,39 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 通信学报, 2016, 37(10): 149-157.
 
 
-## IMPACTSOF MY RESEARCH
+## Impacts of My Research
+
+### 2019
+
++ The design issues in authorization model of MQTT raise the concern of OASIS MQTT Technical Committee and are treated as major priority. [OASIS Open Issue MQTT-536](https://issues.oasis-open.org/projects/MQTT/issues/MQTT-536?filter=allopenissues)
+
+### 2018
++ The vulnerabilities and design flaws I found in IoT platforms and MQTT influence many popular vendors including Amazon Web Service, Microsoft(awarded \$2500 plus \$4000), IBM, iRobot, Alibaba, Baidu, Tuya Smart, Suning (Critical), Eclipse Mosquitto, etc, which may cause illegal control, large-scale DoS, privacy leaks and device impersonation  .
+(Reference:
+    [MSRC Online Acknowledgement(October 2019)](https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services),
+    [MSRC Online Acknowledgement(July 2018)](https://www.microsoft.com/en-us/msrc/researcher-acknowledgments-online-services-archive?rtc=1),
+    [CVE-2018-12546](https://bugs.eclipse.org/bugs/show_bug.cgi?id=543127), 
+    [CVE-2018-12550](https://bugs.eclipse.org/bugs/show_bug.cgi?id=541870),
+    [CNVD-2019-34661](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34661), 
+    [CNVD-2019-34660](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34660),
+    [CNVD-2019-34656](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34656),
+    [CNVD-2019-34655](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34655),
+    [CNVD-2019-34654](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34654),
+    [CNVD-2019-34652](https://www.cnvd.org.cn/flaw/show/CNVD-2019-34652)
+ )
+
++ The vulnerabilities about device identity management influenced many popular IoT platforms including Alibaba Alink, JD Joylink and TP-Link Kasa Smart, which cause remote hijacking and impersonating the victim's IoT device.
+
+
+### 2017
++ HSTS Bypass via fooding of the HSTS policy file in Chromium (Severity-Medium). [Issue 699461](https://bugs.chromium.org/p/chromium/issues/detail?id=699461) (All platforms affected but has not been solved yet)
 
 ## Research Funds
 
 + Inovation Fund of Xidian University. 12,000 CNY, 2018-2019
 + China Scholarship Council Funding. 
 
-## INVITED TALKS
+## Invited Talks
 
 + [Cyber Security Top Conference Paper Summer Camp 2020](https://cc.nankai.edu.cn/2020/0820/c13291a291500/page.htm). Nankai University (Online). Jul. 27, 2020. 
 + [InForSec Annual Symposium 2020](http://www.inforsec.org/wp/?p=3822). Tsinghua University. Jan 3-4, 2020.
@@ -70,35 +95,3 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 ## Academic Services
 
 + Reviewer of IEEE Internet of Things Journal
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/YanJIA-Nankai/YanJIA-Nankai.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
