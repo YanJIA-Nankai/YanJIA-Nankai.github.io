@@ -59,6 +59,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 ## Impacts of My Research
 
 ### 2020
++ A design vulnerability about Apple Homekit: [CVE-2020-9978](https://support.apple.com/en-us/HT212011).
 + Vulnerabilities we discovered are assigned [CNVD-2020-68248](https://www.cnvd.org.cn/flaw/show/2621899), CNVD-2020-73400.
 
 ### 2019
