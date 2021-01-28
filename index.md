@@ -1,6 +1,6 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Lecturer Postdoctoral Fellowship in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network and other systems. Our work helped many parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their system security.
+I'm a Research Associate in the College of Cyber Science at Nankai University. I received my ph.D. from School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilites in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network and other systems. Our work helped many parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their system security.
 
 ## Education
 
@@ -83,7 +83,6 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
  )
 
 + The vulnerabilities about device identity management influenced many popular IoT platforms including Alibaba Alink, JD Joylink and TP-Link Kasa Smart, which cause remote hijacking and impersonating the victim's IoT device.
-
 
 ### 2017
 + HSTS Bypass via fooding of the HSTS policy file in Chromium (Severity-Medium). [Issue 699461](https://bugs.chromium.org/p/chromium/issues/detail?id=699461)
