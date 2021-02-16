@@ -1,6 +1,6 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Research Associate in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our work helped many parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security.
+I'm a Research Associate in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security.
 
 
 ## Education
@@ -13,6 +13,8 @@ I'm a Research Associate in the College of Cyber Science at Nankai University. I
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
++ **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021.
+
 + Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
