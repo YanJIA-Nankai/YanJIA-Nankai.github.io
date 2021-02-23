@@ -13,7 +13,11 @@ I'm a Research Associate in the College of Cyber Science at Nankai University. I
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
-+ **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021.
++ Wei Zhou, Chen Cao*, Dongdong Huo*, Kai Cheng*, Lan Zhang*, Le Guan*, Tao Liu*, Yan Jia*,Yaowen Zheng*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
+**Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
+IEEE Internet of Things Journal ( Early Access ), 2021. (*These authors contributed equally to this work.)
+
+
 
 + Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
@@ -23,8 +27,7 @@ IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
 **Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation**. 
 29th USENIX Security Symposium (USENIX Security). 2020. (*The first two authors collaborate closely during the work.)
 
-+ **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
-Black Hat Europe. 2019.
+
 
 + Zhou Wei, Jia Yan, Yao Yao, Zhu Lipeng, Guan le, Mao Yuhang, Liu Peng and Zhang Yuqing. 
 **Discovering and understanding the security hazards in the interactions between IoT devices, mobile apps, and clouds on smart home platforms**.
@@ -97,6 +100,9 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 ## Invited Talks
 
++ **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
+Black Hat Europe. 2019.
++ **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021.
 + [Cyber Security Top Conference Paper Summer Camp 2020](https://cc.nankai.edu.cn/2020/0820/c13291a291500/page.htm). Nankai University (Online). Jul. 27, 2020. 
 + [InForSec Annual Symposium 2020](http://www.inforsec.org/wp/?p=3822). Tsinghua University. Jan 3-4, 2020.
 
