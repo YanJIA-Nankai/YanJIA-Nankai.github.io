@@ -13,7 +13,7 @@ I'm a Research Associate in the College of Cyber Science at Nankai University. I
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
-+ Wei Zhou, Chen Cao*, Dongdong Huo*, Kai Cheng*, Lan Zhang*, Le Guan*, Tao Liu*, Yan Jia*,Yaowen Zheng*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
++ Wei Zhou, Chen Cao\*, Dongdong Huo\*, Kai Cheng\*, Lan Zhang\*, Le Guan\*, Tao Liu\*, Yan Jia\*,Yaowen Zheng\*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
 **Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
 IEEE Internet of Things Journal ( Early Access ), 2021. (*These authors contributed equally to this work.)
 
