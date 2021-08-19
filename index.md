@@ -1,6 +1,6 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Research Associate in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in Dec. 2020. I'm interested in discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security.
+I'm a Research Associate (师资博士后) in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security.
 
 
 ## Education
@@ -13,25 +13,23 @@ I'm a Research Associate in the College of Cyber Science at Nankai University. I
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
++ Yan Jia, Bin Yuan, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. To appear in ACM CCS 2021.
+
 + Wei Zhou, Chen Cao\*, Dongdong Huo\*, Kai Cheng\*, Lan Zhang\*, Le Guan\*, Tao Liu\*, Yan Jia\*,Yaowen Zheng\*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
 **Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
 IEEE Internet of Things Journal ( Early Access ), 2021. (*These authors contributed equally to this work.)
-
-
 
 + Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
 
-+ Yuan Bin, Jia Yan, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
++ Yuan Bin\*, Jia Yan\*, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
 **Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation**. 
-29th USENIX Security Symposium (USENIX Security). 2020. (*The first two authors collaborate closely during the work.)
-
-
+29th USENIX Security Symposium (USENIX Security). 2020.
 
 + Zhou Wei, Jia Yan, Yao Yao, Zhu Lipeng, Guan le, Mao Yuhang, Liu Peng and Zhang Yuqing. 
 **Discovering and understanding the security hazards in the interactions between IoT devices, mobile apps, and clouds on smart home platforms**.
-28th USENIX Security Symposium (USENIX Security). 2019. (*The first two authors collaborate closely during the work.)
+28th USENIX Security Symposium (USENIX Security). 2019.
 
 + Yao Yao, Zhou Wei, Jia Yan, Zhu Lipeng, Liu Peng and Zhang Yuqing. 
 **Identifying Privilege Separation Vulnerabilities in IoT Firmware with Symbolic Execution**. 
