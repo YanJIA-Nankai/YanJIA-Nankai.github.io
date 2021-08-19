@@ -97,6 +97,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + China Scholarship Council Funding. 
 
 ## Talks
++ [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jan 5-6, 2021.
 
 + **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021. Reported by [DARKReading](https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716) [DARKReading](https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867)
 + **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
