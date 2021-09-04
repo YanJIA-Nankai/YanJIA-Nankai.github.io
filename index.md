@@ -95,6 +95,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 + Inovation Fund of Xidian University. 12,000 CNY, 2018-2019
 + China Scholarship Council Funding. 
++ China Postdoctoral Science Foundation. 80,000 CNY, 2021-
 
 ## Talks
 + [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jan 5-6, 2021.
@@ -109,3 +110,4 @@ Black Hat Europe. 2019.
 
 + Reviewer of IEEE Internet of Things Journal
 + Reviewer of IEEE Security & Privacy
++ EAI SPNCE 2021 Program Committee Member
