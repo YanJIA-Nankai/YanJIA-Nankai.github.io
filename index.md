@@ -13,11 +13,11 @@ I'm a Research Associate (师资博士后) in the College of Cyber Science at Na
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
-+ Yan Jia, Bin Yuan, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. To appear in ACM CCS 2021.
++ Yan Jia, Bin Yuan, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
 
 + Wei Zhou, Chen Cao\*, Dongdong Huo\*, Kai Cheng\*, Lan Zhang\*, Le Guan\*, Tao Liu\*, Yan Jia\*,Yaowen Zheng\*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
 **Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
-IEEE Internet of Things Journal ( Early Access ), 2021. (*These authors contributed equally to this work.)
+IEEE Internet of Things Journal, 2021. (*These authors contributed equally to this work.)
 
 + Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
@@ -95,10 +95,11 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 + Inovation Fund of Xidian University. 12,000 CNY, 2018-2019
 + China Scholarship Council Funding. 
-+ China Postdoctoral Science Foundation. 80,000 CNY, 2021-
++ China Postdoctoral Science Foundation (2021M691673). 80,000 CNY, 2021.6-2022.12
++ National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1-2024.12
 
 ## Talks
-+ [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jan 5-6, 2021.
++ [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jun 5-6, 2021.
 
 + **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021. Reported by [DARKReading](https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716) [DARKReading](https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867)
 + **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
