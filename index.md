@@ -13,7 +13,7 @@ I'm a Research Associate (师资博士后) in the College of Cyber Science at Na
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
-+ Yan Jia*, Bin Yuan*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
++ Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
 
 + Wei Zhou, Chen Cao\*, Dongdong Huo\*, Kai Cheng\*, Lan Zhang\*, Le Guan\*, Tao Liu\*, Yan Jia\*,Yaowen Zheng\*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
 **Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
