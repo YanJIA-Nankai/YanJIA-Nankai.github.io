@@ -99,8 +99,8 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1-2024.12
 
 ## Talks
++ **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
 + [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jun 5-6, 2021.
-
 + **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021. Reported by [DARKReading](https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716) [DARKReading](https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867)
 + **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
 Black Hat Europe. 2019.
@@ -111,4 +111,5 @@ Black Hat Europe. 2019.
 
 + Reviewer of IEEE Internet of Things Journal
 + Reviewer of IEEE Security & Privacy
++ Reviewer of Journal of Computer Science and Technology
 + EAI SPNCE 2021 Program Committee Member
