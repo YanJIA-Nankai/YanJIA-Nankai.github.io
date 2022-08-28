@@ -1,6 +1,6 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Research Associate (师资博士后) in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
+I'm a Research Associate (助理研究员、师资博士后) in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
 I am among active top authors in terms of publishing at leading security venues [System Security Circus](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html).
 
 
@@ -14,6 +14,7 @@ I am among active top authors in terms of publishing at leading security venues 
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Publications 
++ Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. To appear at ACM Conference on Computer and Communications Security (CCS), 2022.
 + Yijing Liu, Yan Jia#, Qingyin Tan, Zheli Liu#, Luyi Xing. **How Are Your Zombie Accounts? Understanding Users’ Practices and Expectations on Mobile App Account Deletion**. USENIX Security 2022. (#Corresponding Authors)
 + Xiaojie Guo, Ye Han, Zheli Liu#, Ding Wang, Yan Jia#, Jin Li **Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes**. USENIX Security 2022. (#Corresponding Authors)
 + Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
@@ -102,8 +103,11 @@ Black Hat Europe. 2019.
 + [Cyber Security Top Conference Paper Summer Camp 2020](https://cc.nankai.edu.cn/2020/0820/c13291a291500/page.htm). Nankai University (Online). Jul. 27, 2020. 
 + [InForSec Annual Symposium 2020](http://www.inforsec.org/wp/?p=3822). Tsinghua University. Jan 3-4, 2020.
 
-## Academic Services
+## Books/Reports
++ 《网络安全国际学术研究进展》，人民邮电出版社，ISBN: 9787115588944. 2022-08
++ 《软件安全：漏洞利用及渗透测试》，清华大学出版社，ISBN: 9787302602156，2022
 
+## Academic Services
 + Reviewer of IEEE Internet of Things Journal
 + Reviewer of IEEE Security & Privacy
 + Reviewer of Journal of Computer Science and Technology
