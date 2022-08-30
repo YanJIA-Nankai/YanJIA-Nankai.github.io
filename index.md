@@ -96,6 +96,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 ## Talks
 + **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
++ **物联网设备多管理通道安全风险分析**. 天津市网络与数据安全技术重点实验室2021学术年会. Nov. 2021.
 + [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jun 5-6, 2021.
 + **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021. Reported by [DARKReading](https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716) [DARKReading](https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867)
 + **Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds**. ([50-min Briefings](https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247))
@@ -105,7 +106,7 @@ Black Hat Europe. 2019.
 
 ## Books/Reports
 + 《网络安全国际学术研究进展》，人民邮电出版社，ISBN: 9787115588944. 2022-08
-+ 《软件安全：漏洞利用及渗透测试》，清华大学出版社，ISBN: 9787302602156，2022
++ 《软件安全：漏洞利用及渗透测试》，清华大学出版社，ISBN: 9787302602156，2022-03
 
 ## Academic Services
 + Reviewer of IEEE Internet of Things Journal
