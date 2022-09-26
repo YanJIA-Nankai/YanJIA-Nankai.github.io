@@ -95,7 +95,8 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1-2024.12
 
 ## Talks
-+ **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
++ **IoT Manufacturers' New Nightmare: Design Flaws and Deployment Chaos in Cloud-based IoT Access Control Policies**. Blackhat Europe 2022. ([40-Minute Briefings](https://www.blackhat.com/eu-22/briefings/schedule/index.html#iot-manufacturers-new-nightmare-design-flaws-and-deployment-chaos-in-cloud-based-iot-access-control-policies-29365))
++  **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
 + **物联网设备多管理通道安全风险分析**. 天津市网络与数据安全技术重点实验室2021学术年会. Nov. 2021.
 + [网络安全研究国际学术论坛(InForSec)](https://www.inforsec.org/wp/?p=4795). Jun 5-6, 2021.
 + **How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control**. ([40-min Briefings](https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816)) Black Hat Asia. 2021. Reported by [DARKReading](https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716) [DARKReading](https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867)
@@ -113,3 +114,6 @@ Black Hat Europe. 2019.
 + Reviewer of IEEE Security & Privacy
 + Reviewer of Journal of Computer Science and Technology
 + EAI SPNCE 2021 Program Committee Member
+
+## Awards
++ 2022 ACM China Rising Star Award （Tianjin） 
