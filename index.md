@@ -114,7 +114,7 @@ Black Hat Europe. 2019.
 + Reviewer of IEEE Security & Privacy
 + Reviewer of Journal of Computer Science and Technology
 + EAI SPNCE 2021 Program Committee Member
-
++ CSCWD 2023 Program Committee Member
 ## Awards
 + 2022 ACM China Rising Star Award （Tianjin）
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
