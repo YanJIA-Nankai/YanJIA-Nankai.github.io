@@ -4,7 +4,7 @@ I'm a Research Associate (助理研究员、师资博士后) in the College of C
 I am among active top authors in terms of publishing at leading security venues [System Security Circus](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html).
 
 
-## Education
+## Education 
 
 + 2020.12 - ,  Lecturer Postdoctoral Fellowship, Nankai University
 + 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Prof.Yuqing Zhang  
@@ -13,7 +13,8 @@ I am among active top authors in terms of publishing at leading security venues 
 + 2015 - 2016, Master Student in Crypto, Xidian University
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
-## Publications 
+## Selected Publications 
++ Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, Yan Jia, Qingxian Wang. **Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study**. arXiv:2212.14296.
 + Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. To appear at ACM Conference on Computer and Communications Security (CCS), 2022.
 + Yijing Liu, Yan Jia#, Qingyin Tan, Zheli Liu#, Luyi Xing. **How Are Your Zombie Accounts? Understanding Users’ Practices and Expectations on Mobile App Account Deletion**. USENIX Security 2022. (#Corresponding Authors)
 + Xiaojie Guo, Ye Han, Zheli Liu#, Ding Wang, Yan Jia#, Jin Li **Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes**. USENIX Security 2022. (#Corresponding Authors)
@@ -55,6 +56,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 **HTML5 应用程序缓存中毒攻击研究**. 
 通信学报, 2016, 37(10): 149-157.
 
+([Google Scholar](https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=zh-CN))
 
 ## Impacts of My Research
 
@@ -115,6 +117,7 @@ Black Hat Europe. 2019.
 + Reviewer of Journal of Computer Science and Technology
 + EAI SPNCE 2021 Program Committee Member
 + CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023 Program Committee Member
++ The 25th International Conference on Information and Communications Security (ICICS'23) Web Chair
 ## Awards
 + 2022 ACM China Rising Star Award （Tianjin）
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
