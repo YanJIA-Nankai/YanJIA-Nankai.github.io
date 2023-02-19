@@ -97,6 +97,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1-2024.12
 
 ## Talks
++ **智能家居安全研究新进展：新场景与应用的挑战**. 华为“未来网络前沿--青年科学家论坛：网络协议与安全专场”. Beijing. Feb.13, 2023. 
 + **IoT Manufacturers' New Nightmare: Design Flaws and Deployment Chaos in Cloud-based IoT Access Control Policies**. Blackhat Europe 2022. ([40-Minute Briefings](https://www.blackhat.com/eu-22/briefings/schedule/index.html#iot-manufacturers-new-nightmare-design-flaws-and-deployment-chaos-in-cloud-based-iot-access-control-policies-29365))
 +  **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
 + **物联网设备多管理通道安全风险分析**. 天津市网络与数据安全技术重点实验室2021学术年会. Nov. 2021.
