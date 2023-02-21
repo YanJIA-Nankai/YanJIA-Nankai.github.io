@@ -15,7 +15,7 @@ I am among active top authors in terms of publishing at leading security venues 
 
 ## Selected Publications 
 + Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, Yan Jia, Qingxian Wang. **Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study**. arXiv:2212.14296.
-+ Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. To appear at ACM Conference on Computer and Communications Security (CCS), 2022.
++ Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. To appear at ACM Conference on Computer and Communications Security (CCS), 2022.
 + Yijing Liu, Yan Jia#, Qingyin Tan, Zheli Liu#, Luyi Xing. **How Are Your Zombie Accounts? Understanding Users’ Practices and Expectations on Mobile App Account Deletion**. USENIX Security 2022. (#Corresponding Authors)
 + Xiaojie Guo, Ye Han, Zheli Liu#, Ding Wang, Yan Jia#, Jin Li **Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes**. USENIX Security 2022. (#Corresponding Authors)
 + Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
