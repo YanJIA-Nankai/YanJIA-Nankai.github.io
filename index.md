@@ -1,7 +1,7 @@
 # Welcome to Yan Jia's Homepage
 
 I'm a Research Associate (助理研究员、师资博士后) in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
-I am among active top authors in terms of publishing at leading security venues [System Security Circus](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html).
+I am among active top authors in terms of publishing at leading security venues System Security Circus [1](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html) [2](https://nebelwelt.net/pubstats/top-authors-sys_sec.html).
 
 
 ## Education 
@@ -15,7 +15,7 @@ I am among active top authors in terms of publishing at leading security venues 
 
 ## Selected Publications 
 + Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, Yan Jia, Qingxian Wang. **Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study**. arXiv:2212.14296.
-+ Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. To appear at ACM Conference on Computer and Communications Security (CCS), 2022.
++ Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. ACM Conference on Computer and Communications Security (CCS), 2022.
 + Yijing Liu, Yan Jia#, Qingyin Tan, Zheli Liu#, Luyi Xing. **How Are Your Zombie Accounts? Understanding Users’ Practices and Expectations on Mobile App Account Deletion**. USENIX Security 2022. (#Corresponding Authors)
 + Xiaojie Guo, Ye Han, Zheli Liu#, Ding Wang, Yan Jia#, Jin Li **Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes**. USENIX Security 2022. (#Corresponding Authors)
 + Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
