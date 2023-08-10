@@ -14,6 +14,10 @@ I am among active top authors in terms of publishing at leading security venues 
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Selected Publications 
+
+### 2024
++ Bin Yuan, Zhanxiang Song, Yan Jia, Zhenyu Lu, Deqing Zou, Hai Jin, Luyi Xing. "MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations." IEEE Symposium on Security and Privacy (S&P) (Oakland), 2024.
+
 ### 2023
 + Xueqiang Wang. Yifan Zhang, XiaoFeng Wang, Yan Jia, Luyi Xing. "Union under Duress: Understanding Hazards of Duplicate Resource Mismediation in Android Software Supply Chain." Usenix Security 2023
 + Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, Yan Jia, Qingxian Wang. **Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study**. arXiv:2212.14296.
@@ -106,11 +110,14 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 + Inovation Fund of Xidian University. 12,000 CNY, 2018-2019
 + China Scholarship Council Funding. 
-+ China Postdoctoral Science Foundation (2021M691673). 80,000 CNY, 2021.6-2022.12
-+ National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1-2024.12
++ China Postdoctoral Science Foundation (2021M691673). 80,000 CNY, 2021.6 -
++ National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1 - 2024.12
++ China Postdoctoral Science Foundation (2023T160335). 160,000 CNY, 2023.7.28 - 
 
 ## Talks
-+ **智能家居安全研究新进展：新场景与应用的挑战**. 华为“未来网络前沿--青年科学家论坛：网络协议与安全专场”. Beijing. Feb.13, 2023. 
++ **智能家居逻辑漏洞研究——新应用与场景带来的挑战**. 2023年InForSec网络空间安全夏令营“导师面对面”专题学术活动. Aug 7-8, 2023. 
++ **智能家居逻辑漏洞研究——新应用与场景带来的挑战**. 首届国际网络空间安全顶级会议交流研讨会（CyberSec 2023）. Lhasa. Aug 4, 2023.
++ **智能家居安全研究新进展：新场景与应用的挑战**. 华为“未来网络前沿--青年科学家论坛：网络协议与安全专场”. Beijing. Feb 13, 2023. 
 + **IoT Manufacturers' New Nightmare: Design Flaws and Deployment Chaos in Cloud-based IoT Access Control Policies**. Blackhat Europe 2022. ([40-Minute Briefings](https://www.blackhat.com/eu-22/briefings/schedule/index.html#iot-manufacturers-new-nightmare-design-flaws-and-deployment-chaos-in-cloud-based-iot-access-control-policies-29365))
 +  **Codema Attack: Controlling Your Smart Home Through Dangling Management Channels**. Black Hat Asia 2022. ([40-min Briefings](https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064))
 + **物联网设备多管理通道安全风险分析**. 天津市网络与数据安全技术重点实验室2021学术年会. Nankai University. November 2021.
@@ -133,5 +140,5 @@ Black Hat Europe. 2019.
 + CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023 Program Committee Member
 + The 25th International Conference on Information and Communications Security (ICICS'23) Web Chair
 ## Awards
-+ 2022 ACM China Rising Star Award （Tianjin）
++ 2022 ACM China Council Tianjin Chapter Rising Star Award
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
