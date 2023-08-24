@@ -133,12 +133,11 @@ Black Hat Europe. 2019.
 + 《软件安全：漏洞利用及渗透测试》，清华大学出版社，ISBN: 9787302602156，2022-03
 
 ## Academic Services
-+ Reviewer of IEEE Internet of Things Journal
-+ Reviewer of IEEE Security & Privacy
-+ Reviewer of Journal of Computer Science and Technology
++ Reviewer of IEEE Internet of Things Journal, IEEE Security & Privacy, Journal of Computer Science and Technology, IEEE Transactions on Big Data, etc.
 + EAI SPNCE 2021 Program Committee Member
 + CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023 Program Committee Member
 + The 25th International Conference on Information and Communications Security (ICICS'23) Web Chair
++ IEEE MSN (The 19th International Conference on Mobility, Sensing and Networking) 2023 Program Committee Member
 ## Awards
 + 2022 ACM China Council Tianjin Chapter Rising Star Award
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
