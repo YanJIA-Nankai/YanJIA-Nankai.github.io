@@ -1,12 +1,13 @@
 # Welcome to Yan Jia's Homepage
 
-I'm a Research Associate (助理研究员、师资博士后) in the College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
+I am now an Associate Professor (**100 Young Academic Leaders of Nankai University**), College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
 I am among active top authors in terms of publishing at leading security venues System Security Circus [[1]](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html) [[2]](https://nebelwelt.net/pubstats/top-authors-sys_sec.html).
 
 
 ## Education 
 
-+ 2020.12 - ,  Lecturer Postdoctoral Fellowship, Nankai University
++ 2024.1.1 -       , Associate Professor, 100 Young Academic Leaders of Nankai University, Nankai University
++ 2020.12 - 2023.12,  Lecturer Postdoctoral Fellowship, Nankai University
 + 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Prof.Yuqing Zhang  
 (RA in the National Computer Network Intrusion Protection Center, University of Chinese Academy of Sciences)
 + 2018.11 - 2020.7, Joint Ph.D. Student, Indiana University Bloomington, mentored by Prof.XiaoFeng Wang and Prof.Luyi Xing
@@ -14,7 +15,7 @@ I am among active top authors in terms of publishing at leading security venues 
 + 2011 - 2015, B.E. in Information Countermeasure Technology, Xidian University
 
 ## Selected Publications 
-
+([Google Scholar](https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=zh-CN))
 ### 2024
 + Bin Yuan, Zhanxiang Song, Yan Jia, Zhenyu Lu, Deqing Zou, Hai Jin, Luyi Xing. "MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations." IEEE Symposium on Security and Privacy (S&P) (Oakland), 2024.
 
@@ -73,7 +74,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 **HTML5 应用程序缓存中毒攻击研究**. 
 通信学报, 2016, 37(10): 149-157.
 
-([Google Scholar](https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=zh-CN))
+
 
 ## Impacts of My Research
 
