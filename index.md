@@ -18,6 +18,7 @@ I am among active top authors in terms of publishing at leading security venues 
 ([Google Scholar](https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=zh-CN))
 ### 2024
 + Bin Yuan, Zhanxiang Song, Yan Jia, Zhenyu Lu, Deqing Zou, Hai Jin, Luyi Xing. "MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations." IEEE Symposium on Security and Privacy (S&P) (Oakland), 2024.
++ Fannv He, Yan Jia, Jiayu Zhao, Yue Fang, Jice Wang, Peng Liu, Yuqing Zhang. "Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps." NDSS 2024.
 
 ### 2023
 + Xueqiang Wang. Yifan Zhang, XiaoFeng Wang, Yan Jia, Luyi Xing. "Union under Duress: Understanding Hazards of Duplicate Resource Mismediation in Android Software Supply Chain." Usenix Security 2023
