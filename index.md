@@ -23,6 +23,8 @@ I am among active top authors in terms of publishing at leading security venues 
 ### 2023
 + Xueqiang Wang. Yifan Zhang, XiaoFeng Wang, Yan Jia, Luyi Xing. "Union under Duress: Understanding Hazards of Duplicate Resource Mismediation in Android Software Supply Chain." Usenix Security 2023
 + Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, Yan Jia, Qingxian Wang. **Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study**. arXiv:2212.14296.
++ Yingnan Zhou, Xue Hu, Sihan Xu#, Yan Jia#, Yuhao Liu, Junyong Wang, Guangquan Xu, Wei Wang, Shaoying Liu, and Thar Baker. Multi-misconfiguration Diagnosis via Identifying Correlated Configuration Parameters. IEEE Transactions on Software Engineering. 2023.
++ Guangquan Xu, Xinru Ding, Sihan Xu#, Yan Jia#, Shaoying Liu, Shicheng Feng#, and Xi Zheng. Real-Time Diagnosis of Configuration Errors for Software of AI Server Infrastructure. IEEE Transactions on Dependable and Secure Computing. 2023.
 
 ### 2022
 + Ze Jin, Luyi Xing, Yiwei Fang, Yan Jia, Bin Yuan, Qixu Liu. **P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies**. ACM Conference on Computer and Communications Security (CCS), 2022.
