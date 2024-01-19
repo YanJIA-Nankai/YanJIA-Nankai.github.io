@@ -1,12 +1,12 @@
 # Welcome to Yan Jia's Homepage
 
-I am now an Associate Professor (**100 Young Academic Leaders of Nankai University**), College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
-I am among active top authors in terms of publishing at leading security venues System Security Circus [[1]](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html) [[2]](https://nebelwelt.net/pubstats/top-authors-sys_sec.html).
+I am now an Associate Professor (**100 Young Academic Leaders of Nankai University**), College of Cyber Science at Nankai University. I received my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My interests inclulde discovering and understanding new design/logic security vulnerabilities in real-world systems, including IoT (currently main direction), Web/Browser, mobile, network, and other systems. Our works were published at top-lier academic and industrial conferences (e.g., Oakland, USENIX Security, CCS, NDSS, Blackhat) and helped many high-profile parties (e.g., AWS, Microsoft, Google Chromium, IBM, Alibaba, Baidu, Apple, Samsung, Eclipse, iRobot, Philips, etc.) improve their systems' security. 
+I am among active top authors in terms of publishing at leading security venues [[1]](https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html) [[2]](https://nebelwelt.net/pubstats/top-authors-sys_sec.html).
 
 
 ## Education 
 
-+ 2024.1.1 -       , Associate Professor, 100 Young Academic Leaders of Nankai University, Nankai University
++ 2024.1 - now, Associate Professor, 100 Young Academic Leaders of Nankai University, Nankai University
 + 2020.12 - 2023.12,  Lecturer Postdoctoral Fellowship, Nankai University
 + 2016.7 - 2020.12, Ph.D. in Information Security, Xidian University, advised by Prof.Yuqing Zhang  
 (RA in the National Computer Network Intrusion Protection Center, University of Chinese Academy of Sciences)
@@ -20,7 +20,7 @@ I am among active top authors in terms of publishing at leading security venues 
 (#Corresponding Authors)
 ### 2024
 + Bin Yuan, Zhanxiang Song, Yan Jia#, Zhenyu Lu, Deqing Zou#, Hai Jin, Luyi Xing#. **MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations**. IEEE Symposium on Security and Privacy (S&P) (Oakland), 2024.
-+ Fannv He, Yan Jia, Jiayu Zhao, Yue Fang, Jice Wang, Peng Liu, Yuqing Zhang#. **Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps**. NDSS 2024.
++ Fannv He, Yan Jia, Jiayu Zhao, Yue Fang, Jice Wang, Peng Liu, Yuqing Zhang#. **Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps**. Network and Distributed System Symposium (NDSS), 2024.
 
 ### 2023
 + Xueqiang Wang. Yifan Zhang, XiaoFeng Wang, Yan Jia, Luyi Xing. **Union under Duress: Understanding Hazards of Duplicate Resource Mismediation in Android Software Supply Chain**. Usenix Security 2023
@@ -139,11 +139,13 @@ Black Hat Europe. 2019.
 + 《软件安全：漏洞利用及渗透测试》，清华大学出版社，ISBN: 9787302602156，2022-03
 
 ## Academic Services
-+ Reviewer of IEEE Internet of Things Journal, IEEE Security & Privacy, Journal of Computer Science and Technology, IEEE Transactions on Big Data, etc.
-+ EAI SPNCE 2021 Program Committee Member
-+ CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023 Program Committee Member
-+ The 25th International Conference on Information and Communications Security (ICICS'23) Web Chair
-+ IEEE MSN (The 19th International Conference on Mobility, Sensing and Networking) 2023 Program Committee Member
++ Reviewer of IEEE Internet of Things Journal, IEEE Security & Privacy, Journal of Computer Science and Technology, IEEE Transactions on Big Data, TIFS, etc.
++ EAI SPNCE 2021, Program Committee Member
++ CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023, Program Committee Member
++ The 25th International Conference on Information and Communications Security (ICICS'23), Web Chair
++ IEEE MSN (The 19th International Conference on Mobility, Sensing and Networking) 2023, Program Committee Member
++ IEEE/ACM Workshop on the Internet of Safe Things (SafeThings 2024), Program Committee Member
++ NDSS 2024 Workshop on Security and Privacy in Standardized IoT (SDIoTSec 2024), Program Committee Member
 ## Awards
 + 2022 ACM China Council Tianjin Chapter Rising Star Award
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
