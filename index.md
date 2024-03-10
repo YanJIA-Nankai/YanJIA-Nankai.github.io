@@ -34,7 +34,7 @@ I am among active top authors in terms of publishing at leading security venues 
 + Xiaojie Guo, Ye Han, Zheli Liu#, Ding Wang, Yan Jia#, Jin Li **Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes**. USENIX Security 2022.
 
 ### 2021
-+ Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021.
++ Yan Jia\*, Bin Yuan\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin. **Who's In Control? On Security Risks of Disjointed IoT Device Management Channels**. ACM Conference on Computer and Communications Security (CCS), 2021. (\*Work closely)
 + Wei Zhou, Chen Cao\*, Dongdong Huo\*, Kai Cheng\*, Lan Zhang\*, Le Guan\*, Tao Liu\*, Yan Jia\*,Yaowen Zheng\*, Yuqing Zhang†, Limin Sun, Yazhe Wang and Peng Liu. 
 **Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems**.
 IEEE Internet of Things Journal, 2021. (*These authors contributed equally to this work.)
@@ -43,15 +43,15 @@ IEEE Internet of Things Journal, 2021. (*These authors contributed equally to th
 + Yan Jia, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao and Yuqing Zhang.
 **Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds**. 
 IEEE Symposium on Security and Privacy (S&P) (Oakland), 2020.
-+ Yuan Bin\*, Jia Yan\*, Xing Luyi, Zhao Dongfang, Wang XiaoFeng, Zou Deqing, Jin Hai and Zhang Yuqing. 
++ Bin Yuan\*, Yan Jia\*, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Deqing Zou, Hai Jin and Yuqing Zhang. 
 **Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation**. 
-29th USENIX Security Symposium (USENIX Security). 2020.
+29th USENIX Security Symposium (USENIX Security). 2020. (\*Work closely)
 
 ### 2019
-+ Zhou Wei, Jia Yan, Yao Yao, Zhu Lipeng, Guan le, Mao Yuhang, Liu Peng and Zhang Yuqing. 
++ Wei Zhou, Yan Jia, Yao Yao, Lipeng Zhu, Le Guan, Yuhang Mao, Peng Liu and Yuqing Zhang. 
 **Discovering and understanding the security hazards in the interactions between IoT devices, mobile apps, and clouds on smart home platforms**.
 28th USENIX Security Symposium (USENIX Security). 2019.
-+ Yao Yao, Zhou Wei, Jia Yan, Zhu Lipeng, Liu Peng and Zhang Yuqing. 
++ Yao Yao, Wei Zhou, Yan Jia, Lipeng Zhu, Peng Liu and Yuqing Zhang. 
 **Identifying Privilege Separation Vulnerabilities in IoT Firmware with Symbolic Execution**. 
 European Symposium on Research in Computer Security (ESORICS). 2019.
 
@@ -59,7 +59,7 @@ European Symposium on Research in Computer Security (ESORICS). 2019.
 + 王基策, 李意莲, 贾岩, 周威, 王宇成, 王鹤, 张玉清. 
 **智能家居安全综述**. 
 计算机研究与发展, 2018, 55(10): 2111.
-+ Zhou Wei, Jia Yan, Peng Anni, Zhang Yuqing, Liu Peng. 
++ Wei Zhou, Yan Jia, Anni Peng, Yuqing Zhang, Peng Liu. 
 **The effect of iot new features on security and privacy: New threats, existing solutions, and challenges yet to be solved**.
 IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + 彭安妮, 周威, 贾岩, 张玉清.
@@ -67,7 +67,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 通信学报, 2018, 39(3): 22-34
 
 ### 2017 and Before
-+ Jia Yan, Zhang Yuqing. 
++ Yan Jia, Yuqing Zhang. 
 **Poster: Security Analysis of HSTS Implementation in Browsers**.
 2017 IEEE Symposium on Security and Privacy (S&P) (Oakland). 2017.
 
