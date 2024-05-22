@@ -141,9 +141,9 @@ Black Hat Europe. 2019.
 ## Academic Services
 + Reviewer of IEEE Internet of Things Journal, IEEE Security & Privacy, Journal of Computer Science and Technology, IEEE Transactions on Big Data, IEEE Transactions on Information Forensics and Security, Empirical Software Engineering, etc.
 + EAI SPNCE 2021, Program Committee Member
-+ CSCWD (26th International Conference on Computer Supported Cooperative Work in Design) 2023, Program Committee Member
++ 26th International Conference on Computer Supported Cooperative Work in Design (CSCW'23), Program Committee Member
 + The 25th International Conference on Information and Communications Security (ICICS'23), Web Chair
-+ IEEE MSN (The 19th International Conference on Mobility, Sensing and Networking) 2023, Program Committee Member
++ The 19th International Conference on Mobility, Sensing and Networking (IEEE MSN), Program Committee Member
 + IEEE/ACM Workshop on the Internet of Safe Things (SafeThings 2024), Program Committee Member
 + NDSS 2024 Workshop on Security and Privacy in Standardized IoT (SDIoTSec 2024), Program Committee Member
 ## Awards
