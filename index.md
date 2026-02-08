@@ -20,6 +20,12 @@ I am among active top authors in terms of publishing at leading security venues 
 ([Google Scholar](https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=zh-CN))
 
 (#Corresponding Authors)
+### 2026
++ Yingnan Zhou, Yuhao Liu, Hanfeng Zhang, Yan Jia#, Sihan Xu#, Zhiyuan Jiang, Zheli Liu. **UAVConfigFuzzer: Detecting Incorrect Configurations in Unmanned Aerial Vehicles via Setpoint Estimation Guided Fuzzing (Registered Report)**. 5th International Fuzzing Workshop (FUZZING) 2026. 2026. 
+
+### 2025
++ Chenghua Jin, Yuxin Song, Yan Jia#, Qingyin Tan, Rui Yang, Zheli Liu. **Security and Privacy Measurement on Chinese Consumer IoT Traffic based on Device Lifecycle**. SCIENCE CHINA Information Sciences. 2025.09
+
 ### 2024
 + Bin Yuan, Zhanxiang Song, Yan Jia#, Zhenyu Lu, Deqing Zou#, Hai Jin, Luyi Xing#. **MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations**. IEEE Symposium on Security and Privacy (S&P) (Oakland), 2024.
 + Fannv He, Yan Jia, Jiayu Zhao, Yue Fang, Jice Wang, Peng Liu, Yuqing Zhang#. **Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps**. Network and Distributed System Symposium (NDSS), 2024.
@@ -123,7 +129,8 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + China Postdoctoral Science Foundation (2023T160335). 160,000 CNY, 2023.7.28 - 
 
 ## Talks
-+ *应用逻辑缺陷研究经验分享——从生活现象到网安学术论文*. CCF Talk 计算机网络与通信顶会——精读细讲. Jun 10, 2024.
++ **基于自动机学习和大模型的消费物联网逻辑漏洞发现**. CCF第40次全国计算机安全学术交流会的新质安全分论坛. Tianjin. Sep 25, 2025.
++ *应用逻辑缺陷研究经验分享——从生活现象到网安学术论文*. CCF Talk 计算机网络与通信顶会——精读细讲. Online. Jun 10, 2024.
 + **智能家居逻辑漏洞研究——新应用与场景带来的挑战**. 2023年InForSec网络空间安全夏令营“导师面对面”专题学术活动. Aug 7-8, 2023. 
 + **智能家居逻辑漏洞研究——新应用与场景带来的挑战**. 首届国际网络空间安全顶级会议交流研讨会（CyberSec 2023）. Lhasa. Aug 4, 2023.
 + **智能家居安全研究新进展：新场景与应用的挑战**. 华为“未来网络前沿--青年科学家论坛：网络协议与安全专场”. Beijing. Feb 13, 2023. 
