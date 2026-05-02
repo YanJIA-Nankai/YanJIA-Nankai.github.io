@@ -128,6 +128,7 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 + National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1 - 2024.12
 + China Postdoctoral Science Foundation (2023T160335). 160,000 CNY, 2023.7.28 - 2024.1
 + National Natural Science Foundation of China (62572258). 500,000 CNY, 2026.1 - 2029.12
++ Fundamental Research Funds for the Central Universities (No. 079-63263257), 2026
 
 ## Talks
 + **基于自动机学习和大模型的消费物联网逻辑漏洞发现**. CCF第40次全国计算机安全学术交流会的新质安全分论坛. Tianjin. Sep 25, 2025.
@@ -156,7 +157,10 @@ Black Hat Europe. 2019.
 + The 25th International Conference on Information and Communications Security (ICICS'23), Web Chair
 + The 19th International Conference on Mobility, Sensing and Networking (IEEE MSN), Program Committee Member
 + IEEE/ACM Workshop on the Internet of Safe Things (SafeThings 2024), Program Committee Member
-+ NDSS 2024 Workshop on Security and Privacy in Standardized IoT (SDIoTSec 2024), Program Committee Member
++ NDSS 2024/2025 Workshop on Security and Privacy in Standardized IoT (SDIoTSec 2024/2025), Program Committee Member
++ The 29th International Symposium on Research in Attacks, Intrusions and Defenses (RAID'26), Program Committee Member
++ 3rd International Conference on Computer,Internet of Things and Smart City. Workshop on Security and Privacy of the Internet, Workshop Chair.
++ 《Cyber Security and Applications》(ISSN: 2772-9184), Editorial Board. 2026-
 ## Awards
 + 2022 ACM China Council Tianjin Chapter Rising Star Award
 + Our CCS'21 paper was selected a finalist (10/83) for CSAW'22 [Applied Research Competition](https://www.csaw.io/research)
