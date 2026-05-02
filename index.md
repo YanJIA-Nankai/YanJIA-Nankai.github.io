@@ -124,9 +124,10 @@ IEEE Internet of Things Journal, 2018, 6(2): 1606-1616
 
 + Inovation Fund of Xidian University. 12,000 CNY, 2018-2019
 + China Scholarship Council Funding. 
-+ China Postdoctoral Science Foundation (2021M691673). 80,000 CNY, 2021.6 -
++ China Postdoctoral Science Foundation (2021M691673). 80,000 CNY, 2021.6 - 2024.1
 + National Natural Science Foundation of China (62102198). 300,000 CNY, 2022.1 - 2024.12
-+ China Postdoctoral Science Foundation (2023T160335). 160,000 CNY, 2023.7.28 - 
++ China Postdoctoral Science Foundation (2023T160335). 160,000 CNY, 2023.7.28 - 2024.1
++ National Natural Science Foundation of China (62572258). 500,000 CNY, 2026.1 - 2029.12
 
 ## Talks
 + **基于自动机学习和大模型的消费物联网逻辑漏洞发现**. CCF第40次全国计算机安全学术交流会的新质安全分论坛. Tianjin. Sep 25, 2025.
