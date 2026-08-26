@@ -1,1 +1,17 @@
-theme: jekyll-theme-slate
+# ============================================================
+# Yan Jia's Personal Homepage — GitHub Pages configuration
+# ============================================================
+# 该站点为自包含静态页面（index.html + profile.jpg），
+# 不依赖任何 Jekyll 主题。若仓库中仍存在 index.md，请删除，
+# 以免与 index.html 在构建时冲突。
+
+title: Yan Jia
+tagline: Associate Professor, College of Cryptology and Cyber Science, Nankai University
+description: >-
+  Personal homepage of Yan Jia (贾岩). Research on IoT security,
+  vulnerability discovery, and system security. Publications at
+  S&P, USENIX Security, CCS, NDSS, and Black Hat.
+url: "https://yanjia-nankai.github.io"
+
+# 静态站点，无需主题
+# theme: jekyll-theme-slate   <-- 已移除

@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yan Jia · Homepage – Nankai University</title>
+<meta name="description" content="Yan Jia (贾岩), Associate Professor at the College of Cryptology and Cyber Science, Nankai University. Research on IoT security, vulnerability discovery, and system security.">
+<meta name="author" content="Yan Jia">
+<meta property="og:title" content="Yan Jia · Homepage">
+<meta property="og:description" content="Associate Professor, College of Cryptology and Cyber Science, Nankai University. IoT Security · Vulnerability Discovery · System Security.">
+<meta property="og:type" content="profile">
+<meta name="theme-color" content="#1a5fb4">
+<style>
+/* ============ Design Tokens ============ */
+:root{
+  --bg:#f6f8fc;
+  --bg-soft:#eef3f9;
+  --surface:#ffffff;
+  --surface-2:#f3f6fb;
+  --text:#22303f;
+  --text-soft:#5b6b7d;
+  --heading:#101826;
+  --primary:#1a5fb4;
+  --primary-strong:#12488f;
+  --primary-soft:rgba(26,95,180,.09);
+  --border:#e2e9f2;
+  --nav-bg:rgba(255,255,255,.82);
+  --shadow:0 1px 2px rgba(15,30,50,.05),0 8px 24px -12px rgba(15,30,50,.12);
+  --shadow-sm:0 1px 2px rgba(15,30,50,.06);
+  --radius:16px;
+  --radius-sm:10px;
+  --maxw:1040px;
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Roboto,Helvetica,Arial,sans-serif;
+  --serif:"Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+}
+html[data-theme="dark"]{
+  --bg:#0b1220;
+  --bg-soft:#0e1728;
+  --surface:#131f34;
+  --surface-2:#0f1a2c;
+  --text:#c9d6e6;
+  --text-soft:#8ba0bb;
+  --heading:#f0f5fc;
+  --primary:#5b9be8;
+  --primary-strong:#8db9f0;
+  --primary-soft:rgba(91,155,232,.14);
+  --border:#22314a;
+  --nav-bg:rgba(11,18,32,.82);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px -14px rgba(0,0,0,.5);
+  --shadow-sm:0 1px 2px rgba(0,0,0,.35);
+
+  .best-paper{color:#fbbf24;background:rgba(245,158,11,.15);border-color:#f59e0b}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{
+  font-family:var(--font);
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  transition:background .3s ease,color .3s ease;
+}
+a{color:var(--primary);text-decoration:none;transition:color .15s ease}
+a:hover{color:var(--primary-strong);text-decoration:underline}
+::selection{background:var(--primary-soft);color:var(--heading)}
+.container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+/* ============ Navbar ============ */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  background:var(--nav-bg);
+  backdrop-filter:saturate(180%) blur(14px);
+  -webkit-backdrop-filter:saturate(180%) blur(14px);
+  border-bottom:1px solid var(--border);
+  transition:background .3s ease,border-color .3s ease;
+}
+.nav-inner{
+  max-width:var(--maxw);margin:0 auto;padding:0 24px;
+  height:60px;display:flex;align-items:center;justify-content:space-between;gap:16px;
+}
+.nav-brand{
+  font-weight:800;font-size:1.08rem;color:var(--heading);letter-spacing:.2px;
+  display:flex;align-items:center;gap:10px;white-space:nowrap;
+}
+.nav-brand .dot{width:9px;height:9px;border-radius:50%;background:linear-gradient(135deg,var(--primary),#37b6c9);flex:none}
+.nav-brand a{color:inherit}
+.nav-links{display:flex;align-items:center;gap:2px;list-style:none;overflow-x:auto}
+.nav-links a{
+  display:block;padding:6px 11px;border-radius:8px;font-size:.9rem;color:var(--text-soft);
+  white-space:nowrap;transition:color .15s,background .15s;
+}
+.nav-links a:hover{color:var(--heading);background:var(--primary-soft);text-decoration:none}
+.nav-links a.active{color:var(--primary-strong);background:var(--primary-soft);font-weight:600}
+.nav-actions{display:flex;align-items:center;gap:8px}
+.icon-btn{
+  border:1px solid var(--border);background:var(--surface);color:var(--text-soft);
+  width:38px;height:38px;border-radius:10px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:1rem;
+  transition:all .15s ease;
+}
+.icon-btn:hover{color:var(--heading);border-color:var(--primary);transform:translateY(-1px)}
+.hamburger{display:none}
+@media(max-width:860px){
+  .nav-links{
+    position:fixed;top:60px;left:0;right:0;background:var(--nav-bg);
+    backdrop-filter:blur(14px);border-bottom:1px solid var(--border);
+    flex-direction:column;align-items:stretch;padding:8px 16px 14px;gap:2px;
+    max-height:0;overflow:hidden;opacity:0;pointer-events:none;transition:all .25s ease;
+  }
+  .nav-links.open{max-height:70vh;overflow-y:auto;opacity:1;pointer-events:auto}
+  .nav-links a{padding:11px 14px;font-size:1rem}
+  .hamburger{display:flex}
+}
+
+/* ============ Hero ============ */
+header.hero{
+  padding:110px 0 44px;
+  background:
+    radial-gradient(900px 420px at 12% -10%,var(--primary-soft),transparent 60%),
+    radial-gradient(700px 380px at 95% 0%,rgba(55,182,201,.10),transparent 55%),
+    var(--bg);
+  border-bottom:1px solid var(--border);
+  transition:background .3s ease;
+}
+.hero-inner{display:flex;gap:44px;align-items:center;flex-wrap:wrap}
+.hero-photo{flex:0 0 228px}
+.hero-photo img{
+  width:228px;height:228px;object-fit:cover;border-radius:20px;
+  border:1px solid var(--border);box-shadow:var(--shadow);
+  transition:transform .3s ease,box-shadow .3s ease;
+}
+.hero-photo img:hover{transform:translateY(-3px);box-shadow:0 18px 40px -16px rgba(26,95,180,.35)}
+.hero-body{flex:1 1 440px;min-width:280px}
+.hero-body h1{
+  font-size:2.5rem;line-height:1.12;color:var(--heading);font-weight:800;letter-spacing:-.5px;
+}
+.hero-title{
+  margin-top:8px;font-size:1.12rem;color:var(--primary-strong);font-weight:600;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.honor{
+  display:inline-flex;align-items:center;gap:6px;
+  background:linear-gradient(120deg,var(--primary-soft),rgba(55,182,201,.12));
+  color:var(--primary-strong);border:1px solid var(--border);
+  font-size:.78rem;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap;
+}
+.hero-affil{margin-top:4px;color:var(--text-soft);font-size:.98rem}
+sup.cite{font-size:.7rem;margin:0 1px}sup.cite a{color:var(--primary-strong);text-decoration:none}sup.cite a:hover{text-decoration:underline}
+.hero-bio{margin-top:16px;color:var(--text);font-size:.99rem;max-width:62ch;text-align:justify;text-justify:inter-word}
+.hero-bio b{color:var(--heading)}
+.hero-meta{margin-top:18px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.pill{
+  display:inline-flex;align-items:center;gap:7px;
+  background:var(--surface);border:1px solid var(--border);border-radius:999px;
+  padding:7px 14px;font-size:.86rem;color:var(--text);box-shadow:var(--shadow-sm);
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease;
+}
+.pill:hover{transform:translateY(-1px);border-color:var(--primary);box-shadow:var(--shadow);text-decoration:none}
+.pill svg{flex:none;color:var(--primary)}
+.hero-stats{
+  margin-top:30px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px;
+}
+.stat{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:14px 8px;text-align:center;box-shadow:var(--shadow-sm);transition:transform .15s,box-shadow .15s;
+}
+.stat:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.stat .n{font-size:1.5rem;font-weight:800;color:var(--heading);line-height:1.1}
+.stat .l{font-size:.76rem;color:var(--text-soft);margin-top:2px}
+@media(max-width:720px){
+  .hero-inner{flex-direction:column;align-items:center;text-align:center}
+  .hero-photo{flex-basis:auto}
+  .hero-title,.hero-meta{justify-content:center}
+  sup.cite{font-size:.7rem;margin:0 1px}sup.cite a{color:var(--primary-strong);text-decoration:none}sup.cite a:hover{text-decoration:underline}
+.hero-bio{text-align:center}
+  .hero-stats{grid-template-columns:repeat(2,1fr)}
+  .hero-body h1{font-size:2rem}
+}
+
+/* ============ Sections ============ */
+section{padding:58px 0;border-bottom:1px solid var(--border)}
+section:last-of-type{border-bottom:none}
+.section-head{display:flex;align-items:baseline;gap:14px;margin-bottom:26px;flex-wrap:wrap}
+.section-head h2{
+  font-size:1.5rem;font-weight:800;color:var(--heading);letter-spacing:-.3px;
+  display:flex;align-items:center;gap:12px;
+}
+.section-head h2 .num{
+  font-family:var(--serif);font-size:1.1rem;color:var(--primary);
+  background:var(--primary-soft);border-radius:8px;padding:2px 9px;font-weight:700;
+}
+.section-head .sub{margin-left:auto;color:var(--text-soft);font-size:.88rem}
+.sec-lead{color:var(--text-soft);font-size:.95rem;margin-top:-14px;margin-bottom:26px;max-width:80ch}
+
+/* ============ Bio ============ */
+.bio-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+  padding:28px 30px;box-shadow:var(--shadow-sm);
+}
+.bio-card p{color:var(--text);font-size:.99rem;margin-bottom:14px}
+.bio-card p:last-child{margin-bottom:0}
+.interest-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.interest{background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:5px 12px;font-size:.84rem;color:var(--text)}
+
+/* ============ Education timeline ============ */
+.timeline{position:relative;padding-left:28px;list-style:none}
+.timeline::before{
+  content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(180deg,var(--primary),rgba(55,182,201,.4));
+  border-radius:2px;
+}
+.timeline li{position:relative;padding-bottom:20px}
+.timeline li:last-child{padding-bottom:0}
+.timeline li::before{
+  content:"";position:absolute;left:-28px;top:7px;width:16px;height:16px;border-radius:50%;
+  background:var(--surface);border:3px solid var(--primary);box-shadow:0 0 0 4px var(--primary-soft);
+}
+.timeline .ed-year{font-size:.8rem;font-weight:700;color:var(--primary-strong);text-transform:uppercase;letter-spacing:.4px}
+.timeline .ed-role{font-size:1rem;font-weight:600;color:var(--heading);margin-top:1px}
+.timeline .ed-desc{color:var(--text-soft);font-size:.9rem;margin-top:2px}
+
+/* ============ Publications ============ */
+.legend{display:inline-flex;gap:14px;flex-wrap:wrap;font-size:.8rem;color:var(--text-soft)}
+.legend sup{color:var(--primary);font-weight:700}
+.pub-year{
+  margin:26px 0 12px;display:flex;align-items:center;gap:14px;
+  font-size:1.05rem;font-weight:800;color:var(--heading);
+}
+.pub-year::after{content:"";flex:1;height:1px;background:var(--border)}
+.pub-list{list-style:none}
+.pub{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:15px 18px;margin-bottom:10px;box-shadow:var(--shadow-sm);
+  transition:transform .15s ease,box-shadow .15s ease,border-color .15s ease;
+}
+.pub:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:rgba(26,95,180,.35)}
+.pub-top{display:flex;align-items:flex-start;gap:10px}
+.pub-title{font-weight:600;color:var(--heading);font-size:.97rem;line-height:1.5}
+.pub-authors{color:var(--text-soft);font-size:.88rem;margin-top:3px}
+.pub-authors .me{color:var(--primary-strong);font-weight:700}
+.pub-authors sup{color:var(--primary);font-weight:700;font-size:.72em}
+.pub-venue{font-size:.82rem;margin-top:4px;color:var(--text-soft)}
+.pub-venue a{color:var(--text-soft)}
+.pub-impact{font-size:.78rem;color:var(--text-soft);margin-top:6px;padding-top:6px;border-top:1px dashed var(--border);line-height:1.5}
+.pub-impact b{color:var(--text)}
+.pub-impact a{color:var(--primary-strong);text-decoration:none}
+.pub-impact a:hover{text-decoration:underline}
+.best-paper{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:.72rem;font-weight:700;color:#92400e;
+  background:linear-gradient(135deg,#fef3c7,#fde68a);
+  border:1px solid #f59e0b;border-radius:6px;padding:1px 8px;
+  margin-left:6px;white-space:nowrap;
+}
+.badge{
+  flex:none;font-size:.72rem;font-weight:700;letter-spacing:.3px;
+  padding:3px 9px;border-radius:999px;color:#fff;margin-top:2px;white-space:nowrap;background:#64748b;
+}
+.badge.ccf-a{background:#c0392b}
+.badge.ccf-b{background:#0e7490}
+html[data-theme="dark"] .badge:not(.ccf-a):not(.ccf-b){background:#7c8ca3}
+.gh-link{font-size:.88rem}
+
+/* ============ Impacts ============ */
+.impact-item{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:14px 18px;margin-bottom:10px;box-shadow:var(--shadow-sm);
+}
+.impact-item .impact-year{font-size:.75rem;font-weight:800;color:var(--primary-strong);letter-spacing:.5px;text-transform:uppercase}
+.impact-item .impact-body{color:var(--text);font-size:.93rem;margin-top:2px}
+.impact-item .impact-body .tag{
+  display:inline-block;font-size:.72rem;font-weight:600;color:var(--primary-strong);
+  background:var(--primary-soft);border-radius:6px;padding:1px 7px;margin:0 3px 2px 0;
+  text-decoration:none;white-space:nowrap;
+}
+.impact-item .impact-body .tag:hover{text-decoration:underline}
+.vendor-cloud{margin-top:4px;display:flex;flex-wrap:wrap;gap:6px}
+.vendor{background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:3px 10px;font-size:.8rem;color:var(--text)}
+
+/* ============ Funds ============ */
+.fund-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.fund{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:16px 18px;box-shadow:var(--shadow-sm);transition:transform .15s,box-shadow .15s,border-color .15s;
+}
+.fund:hover{transform:translateY(-2px);box-shadow:var(--shadow);border-color:rgba(26,95,180,.35)}
+.fund .f-name{font-weight:600;color:var(--heading);font-size:.94rem}
+.fund .f-meta{color:var(--text-soft);font-size:.82rem;margin-top:5px;display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.fund .f-amount{color:var(--primary-strong);font-weight:700}
+
+/* ============ Talks / Books / Services ============ */
+.talk{
+  display:flex;gap:14px;padding:12px 4px;border-bottom:1px dashed var(--border);
+}
+.talk:last-child{border-bottom:none}
+.talk .t-dot{flex:none;width:9px;height:9px;border-radius:50%;margin-top:9px;background:linear-gradient(135deg,var(--primary),#37b6c9)}
+.talk .t-main{flex:1}
+.talk .t-title{font-weight:600;color:var(--heading);font-size:.95rem}
+.talk .t-title a{font-weight:400;font-size:.85rem}
+.talk .t-meta{color:var(--text-soft);font-size:.85rem;margin-top:1px}
+.talk .t-date{color:var(--primary-strong);font-weight:600;white-space:nowrap}
+.book{
+  display:flex;gap:14px;background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-sm);padding:16px 18px;margin-bottom:10px;box-shadow:var(--shadow-sm);align-items:flex-start;
+}
+.book .b-cover{
+  flex:none;width:44px;height:58px;border-radius:6px;background:linear-gradient(140deg,var(--primary),#123a70);
+  display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:1.05rem;
+  box-shadow:var(--shadow-sm);
+}
+.book .b-cover.alt{background:linear-gradient(140deg,#0e7490,#12323f)}
+.book .b-name{font-weight:600;color:var(--heading)}
+.book .b-meta{color:var(--text-soft);font-size:.84rem;margin-top:2px}
+.service-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.service{
+  background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+  padding:12px 15px;font-size:.88rem;color:var(--text);box-shadow:var(--shadow-sm);
+  display:flex;gap:10px;align-items:flex-start;
+}
+.service .s-role{flex:none;font-size:.68rem;font-weight:700;color:#fff;background:var(--primary);border-radius:6px;padding:3px 8px;margin-top:1px;white-space:nowrap}
+.service .s-role.web{background:#0e7490}
+.svc-group{margin-bottom:22px}
+.svc-group:last-child{margin-bottom:0}
+.svc-sub{font-size:.95rem;font-weight:700;color:var(--primary-strong);margin:0 0 10px 2px;letter-spacing:.3px;border-left:3px solid var(--primary);padding-left:10px}
+.people-list{display:flex;flex-wrap:wrap;gap:8px}
+.person{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:5px 12px;font-size:.85rem;color:var(--text)}
+.person .p-note{color:var(--text-soft);font-size:.76rem;margin-left:4px}
+.award-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.award{
+  background:linear-gradient(150deg,var(--primary-soft),rgba(55,182,201,.08));
+  border:1px solid var(--border);border-radius:var(--radius-sm);padding:18px;
+  box-shadow:var(--shadow-sm);transition:transform .15s,box-shadow .15s;
+}
+.award:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.award .a-ico{font-size:1.3rem;margin-bottom:6px}
+.award .a-title{font-weight:700;color:var(--heading);font-size:.95rem}
+.award .a-desc{color:var(--text-soft);font-size:.84rem;margin-top:4px}
+
+/* ============ Footer ============ */
+footer{
+  padding:34px 0 90px;color:var(--text-soft);font-size:.86rem;text-align:center;
+  border-top:1px solid var(--border);
+}
+footer .f-line{margin-top:6px}
+.back-top{
+  position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:12px;
+  background:var(--surface);border:1px solid var(--border);color:var(--text-soft);
+  display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:1.1rem;
+  box-shadow:var(--shadow);opacity:0;pointer-events:none;transition:all .25s ease;z-index:90;
+}
+.back-top.show{opacity:1;pointer-events:auto}
+.back-top:hover{color:var(--heading);transform:translateY(-2px)}
+
+/* ============ Reveal ============ */
+.reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ======== Navbar ======== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="nav-brand"><span class="dot"></span><a href="#about">Yan Jia</a></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education &amp; Experience</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#funds">Funds</a></li>
+      <li><a href="#talks">Talks</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#teaching">Teaching</a></li>
+      <li><a href="#people">People</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn hamburger" id="hamburger" aria-label="Menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">
+        <span class="sun" style="display:none">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </span>
+        <span class="moon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ======== Hero ======== -->
+<header class="hero" id="about">
+  <div class="container hero-inner">
+    <div class="hero-photo reveal">
+      <img src="profile.jpg" alt="Yan Jia (贾岩)">
+    </div>
+    <div class="hero-body reveal">
+      <h1>Yan Jia <span style="font-weight:500;color:var(--text-soft);font-size:1.6rem">贾岩</span></h1>
+      <div class="hero-title">
+        Associate Professor
+        <span class="honor">★ Nankai “100 Young Academic Leaders”</span>
+      </div>
+      <div class="hero-affil">College of Cryptology and Cyber Science, Nankai University</div>
+      <p class="hero-bio">
+        My major interests are discovering and understanding security vulnerabilities, especially new design/logic vulnerabilities, in real-world systems including IoT systems (current focus), Web/Browser, mobile and network systems. Our works have been published at top-tier venues (e.g., Oakland, USENIX Security, CCS, NDSS, Black Hat) and helped leading vendors harden their systems. I am among active top authors in terms of publishing at leading security venues <sup class="cite"><a href="https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html" target="_blank" rel="noopener">[1]</a></sup><sup class="cite"><a href="https://nebelwelt.net/pubstats/top-authors-sys_sec.html" target="_blank" rel="noopener">[2]</a></sup>.
+      </p>
+      <div class="hero-meta">
+        <a class="pill" href="#" onclick="this.href='mailto:'+String.fromCharCode(106,105,97,121,64,110,97,110,107,97,105,46,101,100,117,46,99,110)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+          jiay&copy;nankai&sdot;edu&sdot;cn
+        </a>
+        <a class="pill" href="https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=en" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 1 9l4 2.9V19c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2v-7.1L23 9l-11-7zm0 4.4 1.5 1.1L12 8.6 10.5 7.5 12 6.4zM9 19v-5h6v5H9z"/></svg>
+          Google Scholar
+        </a>
+        <a class="pill" href="https://orcid.org/0000-0003-0689-2508" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM7.5 7h2v10h-2V7zm1 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5zM14 17c-2 0-2.5-1.2-2.5-2.7V8.5h2v5.3c0 .7.2 1.2 1 1.2s.9-.4 1-1.2V8.5h2v5.8c0 2.2-1.3 2.7-3.5 2.7z"/></svg>
+          ORCID
+        </a>
+        <a class="pill" href="https://dblp.org/pid/230/3262-9.html" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg>
+          DBLP
+        </a>
+        <a class="pill" href="https://github.com/NKUHack4FGroup" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.36 9.36 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.02 10.02 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+          NKU Hack4F Group
+        </a>
+        <a class="pill" href="https://cyber.nankai.edu.cn/2021/0323/c13839a552009/page.htm" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+          Faculty Page
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- ======== Bio ======== -->
+  <section id="bio">
+    <div class="section-head">
+      <h2><span class="num">01</span> About</h2>
+    </div>
+    <div class="bio-card reveal">
+            <p style="text-align:justify;text-justify:inter-word">
+        I am an Associate Professor (Recipient of Nankai University&apos;s 100 Young Academic Leaders Program) at the College of Cryptology and Cyber Science, Nankai University. I earned my Ph.D. from the School of Cyber Engineering at Xidian University in December 2020. My research focuses on network and system security. Using empirical analysis, formal modeling, and program&#8209;analysis methods, we have uncovered numerous logic flaws in real&#8209;world systems, including IoT systems, Web/Browser, mobile systems, and communication protocols. My ongoing research interests include security analysis of diverse IoT systems, AI/agents for vulnerability discovery and pentesting, and human factors in cybersecurity. Our group&apos;s research findings have been published at top&#8209;tier security venues including IEEE S&amp;P (Oakland), USENIX Security, ACM CCS, NDSS, and Black Hat. These results have helped major industry vendors, including AWS, Microsoft, Google, Apple, Samsung, Alibaba, Baidu, and many others, improve the security of their products and are assigned tens of CVE/CNVD identifiers. I rank among the active top&#8209;ranking authors at leading cybersecurity conferences, as shown in public statistics <sup class="cite"><a href="https://www.s3.eurecom.fr/~balzarot/security-circus/authors.html" target="_blank" rel="noopener">[1]</a></sup><sup class="cite"><a href="https://nebelwelt.net/pubstats/top-authors-sys_sec.html" target="_blank" rel="noopener">[2]</a></sup>.
+      </p>
+      <p style="text-align:justify;text-justify:inter-word;margin-top:10px">
+        I currently lead the Hack4F research group with around ten members, which is part of the Key Laboratory of Data and Intelligent System Security, Ministry of Education. Our group maintains solid collaborative partnerships with prestigious universities domestically and internationally. If you are enthusiastic about network and system security and enjoy hands&#8209;on practice, feel free to reach out to me via email or Feishu for internships and research collaborations within our group.
+      </p>
+      <p style="margin-top:10px">Research keywords:</p>
+      <div class="interest-list">
+        <span class="interest">IoT Security</span>
+        <span class="interest">Vulnerability Discovery</span>
+        <span class="interest">AI/Agent for Security</span>
+        <span class="interest">Network and Systems Security</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== Education ======== -->
+  <section id="education">
+    <div class="section-head">
+      <h2><span class="num">02</span> Education &amp; Experience</h2>
+      <span class="sub">Academic background &amp; positions</span>
+    </div>
+    <ul class="timeline">
+      <li class="reveal">
+        <div class="ed-year">2024.1 – Present</div>
+        <div class="ed-role">Associate Professor, Nankai University</div>
+        <div class="ed-desc">“100 Young Academic Leaders of Nankai University” · College of Cryptology and Cyber Science</div>
+      </li>
+      <li class="reveal">
+        <div class="ed-year">2020.12 – 2023.12</div>
+        <div class="ed-role">Lecturer · Postdoctoral Fellowship, Nankai University</div>
+        <div class="ed-desc">College of Cyber Science</div>
+      </li>
+      <li class="reveal">
+        <div class="ed-year">2016.7 – 2020.12</div>
+        <div class="ed-role">Ph.D. in Information Security, Xidian University</div>
+        <div class="ed-desc">Advised by Prof. Yuqing Zhang · RA at the National Computer Network Intrusion Protection Center, UCAS</div>
+      </li>
+      <li class="reveal">
+        <div class="ed-year">2018.11 – 2020.7</div>
+        <div class="ed-role">Joint Ph.D. Student, Indiana University Bloomington</div>
+        <div class="ed-desc">Mentored by Prof. XiaoFeng Wang and Prof. Luyi Xing</div>
+      </li>
+      <li class="reveal">
+        <div class="ed-year">2015 – 2016</div>
+        <div class="ed-role">Master Student in Crypto, Xidian University</div>
+      </li>
+      <li class="reveal">
+        <div class="ed-year">2011 – 2015</div>
+        <div class="ed-role">B.E. in Information Countermeasure Technology, Xidian University</div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ======== Publications ======== -->
+  <section id="publications">
+    <div class="section-head">
+      <h2><span class="num">03</span> Selected Publications</h2>
+      <span class="sub">
+        <a class="gh-link" href="https://scholar.google.com/citations?user=p-tmiyUAAAAJ&hl=en" target="_blank" rel="noopener">Full list on Google Scholar ↗</a>
+      </span>
+    </div>
+    <div class="sec-lead">
+      <span class="legend">
+        <span><sup>#</sup> Corresponding author</span>
+        <span><sup>*</sup> Equal contribution</span>
+      </span>
+    </div>
+
+    <div class="pub-year reveal">2026</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-b">ISSRE'26</span><span class="pub-title">KubeCap: A Framework for Capability Minimization in Kubernetes via Static Analysis and LLM-Assisted Rule Inference</span></div>
+        <div class="pub-authors">Yuhao Liu, Yingnan Zhou, Weijie Liu<sup>#</sup>, <span class="me">Yan Jia<sup>#</sup></span>, Zheli Liu</div>
+        <div class="pub-venue">IEEE International Symposium on Software Reliability Engineering, 2026</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-b">TWEB</span><span class="pub-title">Prevalent but Fragmented: Understanding the Scattered URL Navigation Interventions in Modern Web Clients</span></div>
+        <div class="pub-authors">Qingyin Tan, <span class="me">Yan Jia<sup>#</sup></span>, Yijing Liu, Xingyu Lu, Zheli Liu</div>
+        <div class="pub-venue">ACM Transactions on the Web, 2026</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-b">EMSE</span><span class="pub-title">Rethinking software misconfigurations in the real world: an empirical study and literature analysis</span></div>
+        <div class="pub-authors">Yuhao Liu, Yingnan Zhou, Hanfeng Zhang, Zhiwei Chang, Sihan Xu<sup>#</sup>, <span class="me">Yan Jia<sup>#</sup></span>, Wei Wang, Juncheng Hu, Zheli Liu</div>
+        <div class="pub-venue">Empirical Software Engineering, 2026</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge">FUZZING'26</span><span class="pub-title">UAVConfigFuzzer: Detecting Incorrect Configurations in Unmanned Aerial Vehicles via Setpoint Estimation Guided Fuzzing (Registered Report)</span></div>
+        <div class="pub-authors">Yingnan Zhou, Yuhao Liu, Hanfeng Zhang, <span class="me">Yan Jia<sup>#</sup></span>, Sihan Xu<sup>#</sup>, Zhiyuan Jiang, Zheli Liu</div>
+        <div class="pub-venue">International Fuzzing Workshop, 2026</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2025</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">SCIS</span><span class="pub-title">Security and Privacy Measurement on Chinese Consumer IoT Traffic based on Device Lifecycle</span></div>
+        <div class="pub-authors">Chenghua Jin, Yuxin Song, <span class="me">Yan Jia<sup>#</sup></span>, Qingyin Tan, Rui Yang, Zheli Liu</div>
+        <div class="pub-venue">SCIENCE CHINA Information Sciences, 2025</div>
+        <div class="pub-impact">We constructed and open-sourced the first Chinese smart home device traffic dataset — <a href="https://github.com/NKUHack4FGroup/Lifecycle-Based-Traffic-Dataset" target="_blank" rel="noopener">GitHub</a></div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge">CIoTSC'25</span><span class="pub-title">"Seeing is not always believing": Exploring Bystanders' Privacy Concerns on Multifunction IoT Devices in China</span></div>
+        <div class="pub-authors">Yijing Liu, Ling Liu, <span class="me">Yan Jia<sup>#</sup></span>, Qingyin Tan, Zheli Liu, Tong Yu</div>
+        <div class="pub-venue">IEEE International Conference on Computer, Internet of Things and Smart City, 2025 · <span class="best-paper">🏆 Best Paper Award</span></div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2024</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">S&amp;P'24</span><span class="pub-title">MQTTactic: Security Analysis and Verification for Logic Flaws in MQTT Implementations</span></div>
+        <div class="pub-authors">Bin Yuan, Zhanxiang Song, <span class="me">Yan Jia<sup>#</sup></span>, Zhenyu Lu, Deqing Zou<sup>#</sup>, Hai Jin, Luyi Xing<sup>#</sup></div>
+        <div class="pub-venue">IEEE Symposium on Security and Privacy, 2024</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">NDSS'24</span><span class="pub-title">Maginot Line: Assessing a New Cross-app Threat to PII-as-Factor Authentication in Chinese Mobile Apps</span></div>
+        <div class="pub-authors">Fannv He, <span class="me">Yan Jia</span>, Jiayu Zhao, Yue Fang, Jice Wang, Peng Liu, Yuqing Zhang<sup>#</sup></div>
+        <div class="pub-venue">Network and Distributed System Security Symposium, 2024</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2023</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">USENIX'23</span><span class="pub-title">Union under Duress: Understanding Hazards of Duplicate Resource Mismediation in Android Software Supply Chain</span></div>
+        <div class="pub-authors">Xueqiang Wang, Yifan Zhang, XiaoFeng Wang, <span class="me">Yan Jia</span>, Luyi Xing</div>
+        <div class="pub-venue">USENIX Security Symposium, 2023</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge">arXiv</span><span class="pub-title">Towards Comprehensively Understanding the Run-time Security of Programmable Logic Controllers: A 3-year Empirical Study</span></div>
+        <div class="pub-authors">Rongkuan Ma, Qiang Wei, Jingyi Wang, Shunkai Zhu, Shouling Ji, Peng Cheng, <span class="me">Yan Jia</span>, Qingxian Wang</div>
+        <div class="pub-venue">arXiv:2212.14296</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">TSE</span><span class="pub-title">Multi-misconfiguration Diagnosis via Identifying Correlated Configuration Parameters</span></div>
+        <div class="pub-authors">Yingnan Zhou, Xue Hu, Sihan Xu<sup>#</sup>, <span class="me">Yan Jia<sup>#</sup></span>, Yuhao Liu, Junyong Wang, Guangquan Xu, Wei Wang, Shaoying Liu, Thar Baker</div>
+        <div class="pub-venue">IEEE Transactions on Software Engineering, 2023</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">TDSC</span><span class="pub-title">Real-Time Diagnosis of Configuration Errors for Software of AI Server Infrastructure</span></div>
+        <div class="pub-authors">Guangquan Xu, Xinru Ding, Sihan Xu<sup>#</sup>, <span class="me">Yan Jia<sup>#</sup></span>, Shaoying Liu, Shicheng Feng<sup>#</sup>, Xi Zheng</div>
+        <div class="pub-venue">IEEE Transactions on Dependable and Secure Computing, 2023</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2022</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">CCS'22</span><span class="pub-title">P-Verifier: Understanding and Mitigating Security Risks in Cloud-based IoT Access Policies</span></div>
+        <div class="pub-authors">Ze Jin, Luyi Xing, Yiwei Fang, <span class="me">Yan Jia</span>, Bin Yuan, Qixu Liu</div>
+        <div class="pub-venue">ACM Conference on Computer and Communications Security, 2022</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">USENIX'22</span><span class="pub-title">How Are Your Zombie Accounts? Understanding Users' Practices and Expectations on Mobile App Account Deletion</span></div>
+        <div class="pub-authors">Yijing Liu, <span class="me">Yan Jia<sup>#</sup></span>, Qingyin Tan, Zheli Liu<sup>#</sup>, Luyi Xing</div>
+        <div class="pub-venue">USENIX Security Symposium, 2022</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">USENIX'22</span><span class="pub-title">Birds of a Feather Flock Together: How Set Bias Helps to Deanonymize You via Revealed Intersection Sizes</span></div>
+        <div class="pub-authors">Xiaojie Guo, Ye Han, Zheli Liu<sup>#</sup>, Ding Wang, <span class="me">Yan Jia<sup>#</sup></span>, Jin Li</div>
+        <div class="pub-venue">USENIX Security Symposium, 2022</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2021</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">CCS'21</span><span class="pub-title">Who's In Control? On Security Risks of Disjointed IoT Device Management Channels</span></div>
+        <div class="pub-authors"><span class="me">Yan Jia</span>, Bin Yuan, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Yifan Zhang, Yijing Liu, Kaimin Zheng, Peyton Crnjak, Yuqing Zhang, Deqing Zou, Hai Jin</div>
+        <div class="pub-venue">ACM Conference on Computer and Communications Security, 2021</div>
+        <div class="pub-impact">Disjointed device management channel vulnerabilities in <b>Apple HomeKit</b> (<a href="https://support.apple.com/en-us/HT212011" target="_blank" rel="noopener">CVE-2020-9978, macOS</a> / <a href="https://support.apple.com/en-us/HT211850" target="_blank" rel="noopener">iOS</a>); also <a href="https://www.cnvd.org.cn/flaw/show/2621899" target="_blank" rel="noopener">CNVD-2020-68248</a> and CNVD-2020-73400.</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge">IoT-J</span><span class="pub-title">Reviewing IoT Security via Logic Bugs in IoT Platforms and Systems</span></div>
+        <div class="pub-authors">Wei Zhou, Chen Cao<sup>*</sup>, Dongdong Huo<sup>*</sup>, Kai Cheng<sup>*</sup>, Lan Zhang<sup>*</sup>, Le Guan<sup>*</sup>, Tao Liu<sup>*</sup>, <span class="me">Yan Jia<sup>*</sup></span>, Yaowen Zheng<sup>*</sup>, Yuqing Zhang<sup>†</sup>, Limin Sun, Yazhe Wang, Peng Liu <span style="color:var(--text-soft)">(* equal contribution)</span></div>
+        <div class="pub-venue">IEEE Internet of Things Journal, 2021</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2020</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">S&amp;P'20</span><span class="pub-title">Burglars IoT Paradise: Understanding and Mitigating Security Risks of General Messaging Protocols on IoT Clouds</span></div>
+        <div class="pub-authors"><span class="me">Yan Jia</span>, Luyi Xing, Yuhang Mao, Dongfang Zhao, XiaoFeng Wang, Shangru Zhao, Yuqing Zhang</div>
+        <div class="pub-venue">IEEE Symposium on Security and Privacy, 2020</div>
+        <div class="pub-impact">Vulnerabilities in IoT messaging protocols (MQTT) and device identity management affected major platforms including <b>AWS, Microsoft, IBM, Alibaba, Baidu, iRobot, Tuya, Eclipse Mosquitto</b>, enabling remote hijacking, DoS, and privacy leaks. Acknowledged by <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/researcher-acknowledgments-online-services" target="_blank" rel="noopener">MSRC</a>; CVEs CVE-2018-12546 / CVE-2018-12550 and multiple CNVD entries assigned. MQTT authorization design issues raised as a priority by the OASIS MQTT Technical Committee — <a href="https://issues.oasis-open.org/projects/MQTT/issues/MQTT-536" target="_blank" rel="noopener">MQTT-536</a>.</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">USENIX'20</span><span class="pub-title">Shattered Chain of Trust: Understanding Security Risks in Cross-Cloud IoT Access Delegation</span></div>
+        <div class="pub-authors">Bin Yuan, <span class="me">Yan Jia</span>, Luyi Xing, Dongfang Zhao, XiaoFeng Wang, Deqing Zou, Hai Jin, Yuqing Zhang</div>
+        <div class="pub-venue">USENIX Security Symposium, 2020</div>
+        <div class="pub-impact">Cross-cloud IoT delegation vulnerabilities acknowledged by <b>Samsung SmartThings ($2,000 bounty)</b> and <b>Philips Hue</b>.</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2019</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">USENIX'19</span><span class="pub-title">Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms</span></div>
+        <div class="pub-authors">Wei Zhou, <span class="me">Yan Jia</span>, Yao Yao, Lipeng Zhu, Le Guan, Yuhang Mao, Peng Liu, Yuqing Zhang</div>
+        <div class="pub-venue">USENIX Security Symposium, 2019</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-b">ESORICS'19</span><span class="pub-title">Identifying Privilege Separation Vulnerabilities in IoT Firmware with Symbolic Execution</span></div>
+        <div class="pub-authors">Yao Yao, Wei Zhou, <span class="me">Yan Jia</span>, Lipeng Zhu, Peng Liu, Yuqing Zhang</div>
+        <div class="pub-venue">European Symposium on Research in Computer Security, 2019</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2018</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">Journal</span><span class="pub-title">智能家居安全综述 (A Survey on Smart Home Security)</span></div>
+        <div class="pub-authors">王基策, 李意莲, <span class="me">贾岩</span>, 周威, 王宇成, 王鹤, 张玉清</div>
+        <div class="pub-venue">计算机研究与发展, 2018, 55(10): 2111</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge">IoT-J</span><span class="pub-title">The Effect of IoT New Features on Security and Privacy: New Threats, Existing Solutions, and Challenges yet to be Solved</span></div>
+        <div class="pub-authors">Wei Zhou, <span class="me">Yan Jia</span>, Anni Peng, Yuqing Zhang, Peng Liu</div>
+        <div class="pub-venue">IEEE Internet of Things Journal, 2018, 6(2): 1606–1616</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">Journal</span><span class="pub-title">物联网操作系统安全研究综述 (A Survey on Security of IoT Operating Systems)</span></div>
+        <div class="pub-authors">彭安妮, 周威, <span class="me">贾岩</span>, 张玉清</div>
+        <div class="pub-venue">通信学报, 2018, 39(3): 22–34</div>
+      </li>
+    </ul>
+
+    <div class="pub-year reveal">2017 &amp; Before</div>
+    <ul class="pub-list">
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">S&amp;P'17</span><span class="pub-title">Poster: Security Analysis of HSTS Implementation in Browsers</span></div>
+        <div class="pub-authors"><span class="me">Yan Jia</span>, Yuqing Zhang</div>
+        <div class="pub-venue">IEEE Symposium on Security and Privacy, 2017</div>
+        <div class="pub-impact">Discovered an HSTS bypass via flooding of the HSTS policy file in Chromium (Severity: Medium) — <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=699461" target="_blank" rel="noopener">Chromium Issue 699461</a></div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">Journal</span><span class="pub-title">HTML5 新特性安全研究综述 (A Survey on Security of New HTML5 Features)</span></div>
+        <div class="pub-authors">张玉清, <span class="me">贾岩</span>, 雷柯楠, 吕少卿, 乐洪舟</div>
+        <div class="pub-venue">计算机研究与发展, 2016, 53(10): 2163–2172</div>
+      </li>
+      <li class="pub reveal">
+        <div class="pub-top"><span class="badge ccf-a">Journal</span><span class="pub-title">HTML5 应用程序缓存中毒攻击研究 (Research on HTML5 AppCache Poisoning Attacks)</span></div>
+        <div class="pub-authors"><span class="me">贾岩</span>, 王鹤, 吕少卿, 张玉清</div>
+        <div class="pub-venue">通信学报, 2016, 37(10): 149–157</div>
+      </li>
+    </ul>
+  </section>
+
+  
+
+  <!-- ======== Funds ======== -->
+  <section id="funds">
+    <div class="section-head">
+      <h2><span class="num">04</span> Research Funds</h2>
+      <span class="sub">Grants &amp; funding</span>
+    </div>
+    <div class="fund-grid">
+      <div class="fund reveal">
+        <div class="f-name">National Natural Science Foundation of China (面上项目)</div>
+        <div class="f-meta"><span>62572258 · 2026.1 – 2029.12</span><span class="f-amount">¥500,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">Cybersecurity Threat Perception for Power Grid Scenarios</div>
+        <div class="f-meta"><span>Tianjin Electric Power Research Institute (天津电科院) · 2025.11 – 2026.11</span><span class="f-amount">¥685,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">National Natural Science Foundation of China (青年项目)</div>
+        <div class="f-meta"><span>62102198 · 2022.1 – 2024.12</span><span class="f-amount">¥300,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">China Postdoctoral Science Foundation (Special)</div>
+        <div class="f-meta"><span>2023T160335 · 2023.7.28 – 2024.1</span><span class="f-amount">¥160,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">China Postdoctoral Science Foundation</div>
+        <div class="f-meta"><span>2021M691673 · 2021.6 – 2024.1</span><span class="f-amount">¥80,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">Fundamental Research Funds for the Central Universities</div>
+        <div class="f-meta"><span>No. 079-63263257 · 2026</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">Innovation Fund of Xidian University</div>
+        <div class="f-meta"><span>2018 – 2019</span><span class="f-amount">¥12,000</span></div>
+      </div>
+      <div class="fund reveal">
+        <div class="f-name">China Scholarship Council (CSC) Funding</div>
+        <div class="f-meta"><span>Joint Ph.D. program, Indiana University Bloomington</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== Talks ======== -->
+  <section id="talks">
+    <div class="section-head">
+      <h2><span class="num">05</span> Talks</h2>
+      <span class="sub">Invited talks &amp; briefings</span>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">IoT应用逻辑漏洞挖掘研究经验分享</div>
+        <div class="t-meta">Institute of Information Engineering, Chinese Academy of Sciences (中科院信息工程研究所) · Beijing</div>
+      </div>
+      <div class="t-date">Jul 2026</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">基于自动机学习和大模型的消费物联网逻辑漏洞发现</div>
+        <div class="t-meta">CCF 第40次全国计算机安全学术交流会 · 新质安全分论坛 · Tianjin</div>
+      </div>
+      <div class="t-date">Sep 2025</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">应用逻辑缺陷研究经验分享––从生活现象到网安学术论文</div>
+        <div class="t-meta">CCF Talk · 计算机网络与通信顶会––精读细讲 · Online</div>
+      </div>
+      <div class="t-date">Jun 2024</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">智能家居逻辑漏洞研究––新应用与场景带来的挑战</div>
+        <div class="t-meta">2023年 InForSec 网络空间安全夏令营 · “导师面对面”专题学术活动</div>
+      </div>
+      <div class="t-date">Aug 2023</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">智能家居逻辑漏洞研究––新应用与场景带来的挑战</div>
+        <div class="t-meta">首届国际网络空间安全顶级会议交流研讨会 (CyberSec 2023) · Lhasa</div>
+      </div>
+      <div class="t-date">Aug 2023</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">智能家居安全研究新进展：新场景与应用的挑战</div>
+        <div class="t-meta">华为“未来网络前沿–青年科学家论坛：网络协议与安全专场” · Beijing</div>
+      </div>
+      <div class="t-date">Feb 2023</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">IoT Manufacturers' New Nightmare: Design Flaws and Deployment Chaos in Cloud-based IoT Access Control Policies
+          <a href="https://www.blackhat.com/eu-22/briefings/schedule/index.html#iot-manufacturers-new-nightmare-design-flaws-and-deployment-chaos-in-cloud-based-iot-access-control-policies-29365" target="_blank" rel="noopener">(40-Minute Briefing ↗)</a>
+        </div>
+        <div class="t-meta">Black Hat Europe 2022</div>
+      </div>
+      <div class="t-date">2022</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">Codema Attack: Controlling Your Smart Home Through Dangling Management Channels
+          <a href="https://www.blackhat.com/asia-22/briefings/schedule/#codema-attack-controlling-your-smart-home-through-dangling-management-channels-26064" target="_blank" rel="noopener">(40-min Briefing ↗)</a>
+        </div>
+        <div class="t-meta">Black Hat Asia 2022</div>
+      </div>
+      <div class="t-date">2022</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">物联网设备多管理通道安全风险分析</div>
+        <div class="t-meta">天津市网络与数据安全技术重点实验室 2021 学术年会 · Nankai University</div>
+      </div>
+      <div class="t-date">Nov 2021</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">网络安全研究国际学术论坛 (InForSec) <a href="https://www.inforsec.org/wp/?p=4795" target="_blank" rel="noopener">↗</a></div>
+        <div class="t-meta">InForSec Forum</div>
+      </div>
+      <div class="t-date">Jun 2021</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">How I Can Unlock Your Smart Door: Security Pitfalls in Cross-Vendor IoT Access Control
+          <a href="https://www.blackhat.com/asia-21/briefings/schedule/index.html#how-i-can-unlock-your-smart-door-security-pitfalls-in-cross-vendor-iot-access-control-21816" target="_blank" rel="noopener">(40-min Briefing ↗)</a>
+        </div>
+        <div class="t-meta">Black Hat Asia 2021 · Reported by
+          <a href="https://www.darkreading.com/perimeter/security-gaps-in-iot-access-control-threaten-devices-and-users/d/d-id/1340716" target="_blank" rel="noopener">Dark Reading</a>,
+          <a href="https://www.darkreading.com/theedge/black-hat-asia-speakers-share-secrets-about-sandboxes-smart-doors-and-security/b/d-id/1340867" target="_blank" rel="noopener">Dark Reading</a>
+        </div>
+      </div>
+      <div class="t-date">2021</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">Sneak into Your Room: Security Holes in the Integration and Management of Messaging Protocols on Commercial IoT Clouds
+          <a href="https://www.blackhat.com/eu-19/briefings/schedule/index.html#sneak-into-your-room-security-holes-in-the-integration-and-management-of-messaging-protocols-on-commercial-iot-clouds-17247" target="_blank" rel="noopener">(50-min Briefing ↗)</a>
+        </div>
+        <div class="t-meta">Black Hat Europe 2019</div>
+      </div>
+      <div class="t-date">2019</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">Cyber Security Top Conference Paper Summer Camp 2020 <a href="https://cc.nankai.edu.cn/2020/0820/c13291a291500/page.htm" target="_blank" rel="noopener">↗</a></div>
+        <div class="t-meta">Nankai University (Online)</div>
+      </div>
+      <div class="t-date">Jul 2020</div>
+    </div>
+    <div class="talk reveal">
+      <span class="t-dot"></span>
+      <div class="t-main">
+        <div class="t-title">InForSec Annual Symposium 2020 <a href="http://www.inforsec.org/wp/?p=3822" target="_blank" rel="noopener">↗</a></div>
+        <div class="t-meta">Tsinghua University</div>
+      </div>
+      <div class="t-date">Jan 2020</div>
+    </div>
+  </section>
+
+  <!-- ======== Books ======== -->
+  <section id="books">
+    <div class="section-head">
+      <h2><span class="num">06</span> Books &amp; Reports</h2>
+    </div>
+    <div class="book reveal">
+      <div class="b-cover">网</div>
+      <div>
+        <div class="b-name">《网络安全国际学术研究进展》</div>
+        <div class="b-meta">人民邮电出版社 · ISBN 9787115588944 · 2022-08</div>
+      </div>
+    </div>
+    <div class="book reveal">
+      <div class="b-cover alt">软</div>
+      <div>
+        <div class="b-name">《软件安全：漏洞利用及渗透测试》</div>
+        <div class="b-meta">清华大学出版社 · ISBN 9787302602156 · 2022-03</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== Services ======== -->
+  <section id="services">
+    <div class="section-head">
+      <h2><span class="num">07</span> Academic Services</h2>
+      <span class="sub">Reviewing · PC · Editorial</span>
+    </div>
+        <div class="svc-group">
+      <h3 class="svc-sub">Editorial Board</h3>
+      <div class="service-grid">
+        <div class="service reveal"><span class="s-role">Editorial</span><span><i>Cyber Security and Applications</i> (ISSN 2772-9184) – Editorial Board, 2026–</span></div>
+      </div>
+    </div>
+    <div class="svc-group">
+      <h3 class="svc-sub">Program Committee</h3>
+      <div class="service-grid">
+        <div class="service reveal"><span class="s-role">PC</span><span>USENIX Security '27 – 34th USENIX Security Symposium</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>RAID'26 – International Symposium on Research in Attacks, Intrusions and Defenses</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>SDIoTSec 2024/2025 – NDSS Workshop on Security and Privacy in Standardized IoT</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>IEEE MSN – International Conference on Mobility, Sensing and Networking</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>SafeThings 2024 – IEEE/ACM Workshop on the Internet of Safe Things</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>CSCW'23 – International Conference on Computer Supported Cooperative Work in Design</span></div>
+        <div class="service reveal"><span class="s-role">PC</span><span>EAI SPNCE 2021 – International Conference on Security, Privacy and Network Engineering</span></div>
+      </div>
+    </div>
+    <div class="svc-group">
+      <h3 class="svc-sub">Chair</h3>
+      <div class="service-grid">
+        <div class="service reveal"><span class="s-role web">Web Chair</span><span>ICICS'23 – International Conference on Information and Communications Security</span></div>
+        <div class="service reveal"><span class="s-role web">Chair</span><span>Workshop on Security and Privacy of the Internet – 3rd Intl. Conf. on Computer, IoT and Smart City</span></div>
+      </div>
+    </div>
+    <div class="svc-group">
+      <h3 class="svc-sub">Journal Reviewer</h3>
+      <div class="service-grid">
+        <div class="service reveal"><span class="s-role">Reviewer</span><span>IEEE IoT Journal, IEEE Security &amp; Privacy, JCST, IEEE Trans. on Big Data, IEEE TIFS, Empirical Software Engineering, etc.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== Teaching ======== -->
+  <section id="teaching">
+    <div class="section-head">
+      <h2><span class="num">08</span> Teaching</h2>
+    </div>
+    <div class="svc-group">
+      <div class="svc-sub">Course</div>
+      <div class="talk">
+        <div class="t-dot"></div>
+        <div class="t-main">
+          <div class="t-title">IoT Security (Lab)</div>
+          <div class="t-meta">Undergraduate · 物联网安全（实验） · 2022–2026</div>
+        </div>
+      </div>
+      <div class="talk">
+        <div class="t-dot"></div>
+        <div class="t-main">
+          <div class="t-title">Network Security Technology</div>
+          <div class="t-meta">Undergraduate · 网络安全技术 · 2022–2026</div>
+        </div>
+      </div>
+      <div class="talk">
+        <div class="t-dot"></div>
+        <div class="t-main">
+          <div class="t-title">Summer International Short-Term Course</div>
+          <div class="t-meta">暑期国际小学期课程 · 2026</div>
+        </div>
+      </div>
+    </div>
+    <div class="svc-group" style="margin-top:24px">
+      <div class="svc-sub">Student Competition</div>
+      <div class="talk">
+        <div class="t-dot" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)"></div>
+        <div class="t-main">
+          <div class="t-title">National College Student Information Security Competition – First Prize</div>
+          <div class="t-meta">2025 · 全国大学生信息安全竞赛一等奖</div>
+        </div>
+      </div>
+      <div class="talk">
+        <div class="t-dot" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)"></div>
+        <div class="t-main">
+          <div class="t-title">National Cryptology Technology Competition – First Prize</div>
+          <div class="t-meta">2025 · 全国密码技术竞赛一等奖</div>
+        </div>
+      </div>
+      <div class="talk">
+        <div class="t-dot" style="background:linear-gradient(135deg,#94a3b8,#cbd5e1)"></div>
+        <div class="t-main">
+          <div class="t-title">National College Student Information Security Competition – Second Prize</div>
+          <div class="t-meta">2024 · 全国大学生信息安全竞赛二等奖</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======== People ======== -->
+  <section id="people">
+    <div class="section-head">
+      <h2><span class="num">09</span> People</h2>
+    </div>
+    <p style="margin-bottom:22px;color:var(--text-soft);font-size:.93rem">I am fortunate to work with the following students and researchers.</p>
+    <div class="svc-group">
+      <div class="svc-sub">PhD Students</div>
+      <div class="people-list">
+        <span class="person">Qingyin Tan<span class="p-note">(co-supervision)</span></span>
+        <span class="person">Yuhao Liu<span class="p-note">(co-supervision)</span></span>
+        <span class="person">Jieshuai Yang<span class="p-note">(co-supervision)</span></span>
+        <span class="person">Yingnan Zhou<span class="p-note">(co-supervision)</span></span>
+        <span class="person">Wenxuan Fu</span>
+      </div>
+    </div>
+    <div class="svc-group" style="margin-top:22px">
+      <div class="svc-sub">Master Students</div>
+      <div class="people-list">
+        <span class="person">Yijing Liu<span class="p-note">(co-sup · grad. → Tsinghua PhD)</span></span>
+        <span class="person">Yuxin Song<span class="p-note">(grad. → ICBC)</span></span>
+        <span class="person">Peng Guo<span class="p-note">(co-sup · grad. → Beijing)</span></span>
+        <span class="person">Zesheng Wan</span>
+        <span class="person">Bei Liu<span class="p-note">(enterprise joint)</span></span>
+        <span class="person">Chenghua Jin</span>
+        <span class="person">Zhengyuan Li<span class="p-note">(enterprise joint)</span></span>
+        <span class="person">Yixin Zhang</span>
+        <span class="person">Shurui Fang</span>
+        <span class="person">Han Lin</span>
+        <span class="person">Nuoheng Zhou</span>
+        <span class="person">Linwei Li</span>
+      </div>
+    </div>
+    <div class="svc-group" style="margin-top:22px">
+      <div class="svc-sub">Undergraduate Interns</div>
+      <div class="people-list">
+        <span class="person">Jia Li</span>
+        <span class="person">DaiSong Gong</span>
+        <span class="person">Zihan Guo</span>
+        <span class="person">Yiwen Zhang</span>
+        <span class="person">Zeqi Du</span>
+        <span class="person">Aidi Zhang</span>
+        <span class="person">Xiang Gao</span>
+      </div>
+    </div>
+  </section>
+  <!-- ======== Awards ======== -->
+  <section id="awards">
+    <div class="section-head">
+      <h2><span class="num">10</span> Awards &amp; Honors</h2>
+    </div>
+    <div class="award-grid">
+      <div class="award reveal">
+        <div class="a-ico">🥇</div>
+        <div class="a-title">Tianjin Science and Technology Progress Award – First Prize</div>
+        <div class="a-desc">2025 · 天津市科学技术进步一等奖</div>
+      </div>
+      <div class="award reveal">
+        <div class="a-ico">🥈</div>
+        <div class="a-title">Tianjin Science and Technology Progress Award – Second Prize</div>
+        <div class="a-desc">2025 · 天津市科学技术进步二等奖</div>
+      </div>
+            <div class="award reveal">
+        <div class="a-ico">🥉</div>
+        <div class="a-title">State Grid Corporation of China Technical Invention Award – Third Prize</div>
+        <div class="a-desc">2025 · 国家电网有限公司技术发明三等奖</div>
+      </div>
+<div class="award reveal">
+        <div class="a-ico">🏆</div>
+        <div class="a-title">ACM China Council Tianjin Chapter Rising Star Award</div>
+        <div class="a-desc">2022 · recognizing early-career excellence in computing research</div>
+      </div>
+      <div class="award reveal">
+        <div class="a-ico">🎖️</div>
+        <div class="a-title">CSAW'22 Applied Research Competition – Finalist</div>
+        <div class="a-desc">Our CCS'21 paper was selected as a finalist (10/83).
+          <a href="https://www.csaw.io/research" target="_blank" rel="noopener">Learn more ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div>© 2026 Yan Jia · College of Cryptology and Cyber Science, Nankai University</div>
+  <div class="f-line">Built with a clean, responsive academic layout · <a href="#" onclick="this.href='mailto:'+String.fromCharCode(106,105,97,121,64,110,97,110,107,97,105,46,101,100,117,46,99,110)">jiay&copy;nankai&sdot;edu&sdot;cn</a></div>
+</footer>
+
+<button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+  /* ---- Theme toggle ---- */
+  var root=document.documentElement, btn=document.getElementById('themeToggle');
+  var saved=null;try{saved=localStorage.getItem('theme');}catch(e){}
+  if(saved){root.setAttribute('data-theme',saved);}
+  function syncIcons(){
+    var dark=root.getAttribute('data-theme')==='dark';
+    btn.querySelector('.sun').style.display=dark?'inline':'none';
+    btn.querySelector('.moon').style.display=dark?'none':'inline';
+  }
+  syncIcons();
+  btn.addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme')==='dark'?'light':'dark';
+    root.setAttribute('data-theme',cur);
+    try{localStorage.setItem('theme',cur);}catch(e){}
+    syncIcons();
+  });
+
+  /* ---- Mobile menu ---- */
+  var hamburger=document.getElementById('hamburger'), links=document.getElementById('navLinks');
+  hamburger.addEventListener('click',function(){links.classList.toggle('open');});
+  links.addEventListener('click',function(e){if(e.target.tagName==='A'){links.classList.remove('open');}});
+
+  /* ---- Scrollspy ---- */
+  var navAnchors=document.querySelectorAll('.nav-links a');
+  var sections=[];
+  navAnchors.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s){sections.push({a:a,s:s});}});
+  function onScroll(){
+    var pos=window.scrollY+100, current=null;
+    sections.forEach(function(x){if(x.s.offsetTop<=pos){current=x.a;}});
+    navAnchors.forEach(function(a){a.classList.remove('active');});
+    if(current){current.classList.add('active');}
+    document.getElementById('backTop').classList.toggle('show',window.scrollY>500);
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
+  document.getElementById('backTop').addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+
+  /* ---- Reveal on scroll ---- */
+  var revealEls=document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});
+    },{threshold:0.08,rootMargin:'0px 0px -30px 0px'});
+    revealEls.forEach(function(el){io.observe(el);});
+  }else{
+    revealEls.forEach(function(el){el.classList.add('in');});
+  }
+})();
+</script>
+</body>
+</html>
